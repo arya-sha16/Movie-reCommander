@@ -3,14 +3,13 @@
 <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Movies Commander - Streaming Hub</title>
+  <title>NetMirror - Watch Movies & TV Shows Online</title>
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
   
   <!-- Tailwind Theme Extender Configuration -->
   <script id="tailwind-config">
@@ -19,90 +18,25 @@
       theme: {
         extend: {
           "colors": {
-            "on-surface-variant": "#c9c4d7",
-            "surface-bright": "#3a393a",
-            "on-background": "#e5e2e3",
-            "secondary-fixed": "#b4ebff",
-            "on-primary-fixed": "#1c0062",
-            "tertiary": "#ffb2ba",
-            "primary-fixed-dim": "#cabeff",
-            "surface-container": "#201f20",
-            "on-secondary-container": "#005669",
-            "surface": "#131314",
-            "outline": "#938ea0",
-            "surface-container-high": "#2a2a2b",
-            "surface-container-low": "#1c1b1c",
-            "on-error-container": "#ffdad6",
-            "on-secondary-fixed-variant": "#004e5f",
-            "inverse-surface": "#e5e2e3",
-            "on-tertiary": "#67001f",
-            "primary-container": "#5d3fd3",
-            "on-secondary": "#003642",
-            "inverse-primary": "#6042d6",
-            "tertiary-fixed-dim": "#ffb2ba",
-            "outline-variant": "#484554",
-            "primary": "#cabeff",
-            "primary-fixed": "#e6deff",
-            "on-tertiary-fixed-variant": "#910030",
-            "secondary-fixed-dim": "#3cd7ff",
-            "on-surface": "#e5e2e3",
-            "on-error": "#690005",
-            "surface-variant": "#353436",
-            "surface-container-lowest": "#0e0e0f",
-            "surface-container-highest": "#353436",
-            "secondary-container": "#00d2fd",
-            "on-primary-container": "#d8ceff",
-            "surface-tint": "#cabeff",
-            "on-primary-fixed-variant": "#4723be",
-            "surface-dim": "#131314",
-            "background": "#131314",
-            "secondary": "#a2e7ff",
-            "tertiary-fixed": "#ffd9dc",
-            "on-primary": "#30009a",
-            "tertiary-container": "#b8003f",
-            "on-tertiary-container": "#ffc6ca",
-            "error": "#ffb4ab",
-            "on-tertiary-fixed": "#400010",
-            "inverse-on-surface": "#313031",
-            "error-container": "#93000a",
-            "on-secondary-fixed": "#001f27"
+            "primary": "#E50914",
+            "primary-hover": "#B9090B",
+            "background": "#141414",
+            "surface": "#181818",
+            "surface-container": "#242424",
+            "on-surface": "#ffffff",
+            "on-surface-variant": "#aaaaaa",
+            "outline": "#404040",
+            "outline-variant": "#262626"
           },
           "borderRadius": {
-            "DEFAULT": "0.25rem",
-            "lg": "0.5rem",
-            "xl": "0.75rem",
+            "DEFAULT": "4px",
+            "lg": "8px",
+            "xl": "12px",
             "full": "9999px"
           },
-          "spacing": {
-            "xl": "80px",
-            "xs": "4px",
-            "base": "8px",
-            "margin-desktop": "64px",
-            "margin-mobile": "16px",
-            "sm": "12px",
-            "lg": "48px",
-            "md": "24px",
-            "gutter": "24px"
-          },
           "fontFamily": {
-            "label-md": ["JetBrains Mono"],
-            "headline-lg": ["Sora"],
-            "display-sm": ["Sora"],
-            "label-sm": ["JetBrains Mono"],
-            "body-md": ["Inter"],
-            "body-lg": ["Inter"],
-            "display-lg": ["Sora"],
-            "headline-lg-mobile": ["Sora"]
-          },
-          "fontSize": {
-            "label-md": ["14px", {"lineHeight": "1.0", "letterSpacing": "0.05em", "fontWeight": "500"}],
-            "headline-lg": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
-            "display-sm": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700"}],
-            "label-sm": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.08em", "fontWeight": "500"}],
-            "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
-            "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
-            "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
-            "headline-lg-mobile": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}]
+            "sans": ["Inter", "sans-serif"],
+            "title": ["Outfit", "sans-serif"]
           }
         },
       },
@@ -112,85 +46,123 @@
   <!-- Custom Style Sheet -->
   <link href="css/style.css" rel="stylesheet"/>
 </head>
-<body class="font-body-md text-body-md overflow-x-hidden bg-[#0A0A0B] text-on-surface">
+<body class="font-sans bg-background text-on-surface overflow-x-hidden selection:bg-primary selection:text-white">
+
+  <!-- Profile Selector Screen (Shown on first load / switch profile) -->
+  <div id="profile-selector-view" class="fixed inset-0 z-[1000] flex flex-col justify-center items-center bg-[#141414] transition-all duration-300">
+    <h1 class="text-3xl md:text-5xl font-title font-medium text-white mb-8 tracking-wide">Who's watching?</h1>
+    <div class="flex flex-wrap justify-center gap-8 md:gap-12 max-w-4xl px-6 mb-12">
+      <!-- Profile 1 -->
+      <div class="profile-card group flex flex-col items-center cursor-pointer" data-profile="Commander">
+        <div class="profile-avatar-container w-24 h-24 md:w-28 md:h-28 rounded bg-[#E50914] flex items-center justify-center text-white font-title text-5xl font-bold shadow-lg shadow-black/50 transition-all duration-200">
+          C
+        </div>
+        <p class="text-on-surface-variant group-hover:text-white mt-3 text-sm md:text-base font-medium transition-colors">Commander</p>
+      </div>
+      <!-- Profile 2 -->
+      <div class="profile-card group flex flex-col items-center cursor-pointer" data-profile="Guest">
+        <div class="profile-avatar-container w-24 h-24 md:w-28 md:h-28 rounded bg-[#00A8E8] flex items-center justify-center text-white font-title text-5xl font-bold shadow-lg shadow-black/50 transition-all duration-200">
+          G
+        </div>
+        <p class="text-on-surface-variant group-hover:text-white mt-3 text-sm md:text-base font-medium transition-colors">Guest</p>
+      </div>
+      <!-- Profile 3 -->
+      <div class="profile-card group flex flex-col items-center cursor-pointer" data-profile="Kids">
+        <div class="profile-avatar-container w-24 h-24 md:w-28 md:h-28 rounded bg-[#FFC72C] flex items-center justify-center text-white font-title text-5xl font-bold shadow-lg shadow-black/50 transition-all duration-200">
+          K
+        </div>
+        <p class="text-on-surface-variant group-hover:text-white mt-3 text-sm md:text-base font-medium transition-colors">Kids</p>
+      </div>
+    </div>
+    <button class="px-6 py-2 border border-neutral-600 text-neutral-500 hover:text-white hover:border-white transition-all uppercase tracking-widest text-xs md:text-sm font-medium">
+      Manage Profiles
+    </button>
+  </div>
 
   <!-- Top Navigation Bar -->
-  <header id="top-nav" class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface/80 backdrop-blur-xl border-b border-white/10 flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 transition-all duration-300">
-    <div class="flex items-center gap-md">
-      <!-- Clicking logo returns to Home -->
-      <a href="#home" class="font-headline-lg-mobile md:font-headline-lg font-extrabold text-primary dark:text-primary tracking-tighter cursor-pointer active:scale-95 duration-200">
-        Movies Commander
+  <header id="top-nav" class="fixed top-0 w-full z-50 flex justify-between items-center px-4 md:px-12 py-4 transition-all duration-300">
+    <div class="flex items-center gap-6 md:gap-10">
+      <!-- Logo -->
+      <a href="#home" class="font-title font-extrabold text-primary text-2xl md:text-3xl tracking-tighter cursor-pointer select-none active:scale-95 duration-200">
+        NETMIRROR
       </a>
-      <nav class="hidden md:flex items-center gap-gutter ml-lg">
-        <a id="nav-home" class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer" href="#home">Home</a>
-        <a id="nav-movies" class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer" href="#movies">Movies</a>
-        <a id="nav-series" class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer" href="#series">Series</a>
-        <a id="nav-watchlist" class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer" href="#watchlist">Watchlist</a>
+      <nav class="hidden md:flex items-center gap-5 text-sm">
+        <a id="nav-home" class="text-on-surface hover:text-neutral-300 transition-colors font-medium cursor-pointer" href="#home">Home</a>
+        <a id="nav-movies" class="text-on-surface-variant hover:text-neutral-300 transition-colors font-normal cursor-pointer" href="#movies">Movies</a>
+        <a id="nav-series" class="text-on-surface-variant hover:text-neutral-300 transition-colors font-normal cursor-pointer" href="#series">Series</a>
+        <a id="nav-watchlist" class="text-on-surface-variant hover:text-neutral-300 transition-colors font-normal cursor-pointer" href="#watchlist">My List</a>
       </nav>
     </div>
     
-    <div class="flex items-center gap-md">
-      <!-- Search Input Container -->
-      <form id="search-form" class="hidden lg:flex items-center bg-surface-container-low rounded-full px-4 py-2 border border-outline-variant/30">
-        <span class="material-symbols-outlined text-on-surface-variant mr-2 select-none">search</span>
-        <input id="search-input" class="bg-transparent border-none focus:ring-0 text-label-md text-on-surface placeholder:text-outline w-48 transition-all duration-300 focus:w-64" placeholder="Search titles..." type="text"/>
-      </form>
-      
-      <!-- Mobile Search Button -->
-      <button id="mobile-search-btn" class="lg:hidden w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 text-on-surface-variant">
-        <span class="material-symbols-outlined text-primary">search</span>
-      </button>
+    <div class="flex items-center gap-4 md:gap-6">
+      <!-- Search Container (Netflix style expanding search) -->
+      <div id="search-container" class="flex items-center bg-black/40 border border-neutral-700/60 rounded px-3 py-1.5 transition-all duration-300 w-44 md:w-64 focus-within:border-white focus-within:bg-black/90">
+        <span class="material-symbols-outlined text-neutral-400 text-xl mr-2 select-none">search</span>
+        <input id="search-input" class="bg-transparent border-none focus:ring-0 text-sm text-white placeholder-neutral-500 w-full p-0" placeholder="Titles, genres, people..." type="text"/>
+      </div>
 
-      <!-- Notification button -->
+      <!-- Notifications -->
       <div class="relative">
-        <button id="notification-btn" class="w-10 h-10 rounded-full flex items-center justify-center hover:bg-white/10 text-on-surface-variant hover:text-primary transition-colors cursor-pointer relative">
-          <span class="material-symbols-outlined text-primary">notifications</span>
-          <span id="notif-badge" class="absolute top-2 right-2 w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+        <button id="notification-btn" class="w-10 h-10 rounded-full flex items-center justify-center hover:bg-white/10 text-neutral-300 hover:text-white transition-all cursor-pointer relative">
+          <span class="material-symbols-outlined text-2xl">notifications</span>
+          <span id="notif-badge" class="absolute top-2 right-2 w-2 h-2 rounded-full bg-primary animate-ping"></span>
         </button>
         <!-- Floating Notifications dropdown panel -->
         <div id="notification-dropdown" class="notification-dropdown">
-          <h4 class="font-bold text-white mb-2 text-sm border-b border-white/10 pb-2 flex justify-between items-center">
+          <h4 class="font-bold text-white mb-2 text-sm border-b border-neutral-800 pb-2 flex justify-between items-center">
             <span>Notifications</span>
-            <span class="text-xs text-secondary cursor-pointer hover:underline" id="notif-clear">Clear all</span>
+            <span class="text-xs text-primary cursor-pointer hover:underline" id="notif-clear">Clear all</span>
           </h4>
           <div class="flex flex-col gap-3 max-h-64 overflow-y-auto" id="notif-list">
-            <div class="text-xs flex gap-2 border-b border-white/5 pb-2">
-              <span class="material-symbols-outlined text-secondary text-sm">auto_awesome</span>
+            <div class="text-xs flex gap-2 border-b border-neutral-800/50 pb-2">
+              <span class="material-symbols-outlined text-primary text-sm">auto_awesome</span>
               <div>
                 <p class="text-white font-medium">Neural Engine Recommendations Updated</p>
-                <p class="text-outline text-[10px]">Just now</p>
+                <p class="text-neutral-500 text-[10px]">Just now</p>
               </div>
             </div>
-            <div class="text-xs flex gap-2 border-b border-white/5 pb-2">
+            <div class="text-xs flex gap-2 border-b border-neutral-800/50 pb-2">
               <span class="material-symbols-outlined text-primary text-sm">bookmark</span>
               <div>
-                <p class="text-white font-medium">Interstellar is still in your watchlist</p>
-                <p class="text-outline text-[10px]">2 hours ago</p>
+                <p class="text-white font-medium">Interstellar is still in My List</p>
+                <p class="text-neutral-500 text-[10px]">2 hours ago</p>
               </div>
             </div>
             <div class="text-xs flex gap-2">
-              <span class="material-symbols-outlined text-tertiary text-sm">stream</span>
+              <span class="material-symbols-outlined text-primary text-sm">stream</span>
               <div>
                 <p class="text-white font-medium">New Release: Kingdom of Aether is streaming now</p>
-                <p class="text-outline text-[10px]">Yesterday</p>
+                <p class="text-neutral-500 text-[10px]">Yesterday</p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- User Profile -->
-      <div class="w-10 h-10 rounded-full overflow-hidden border-2 border-primary cursor-pointer active:scale-95 transition-all relative group" id="profile-btn">
-        <img alt="User profile with premium status" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDccMcBmFJfdhRz99BT4j7CXaE14MXcJCInlHrEEgkRPSzIddZmRyVAwGQACvvEdp8EgE13L4ESLKS_S8BDr6eH1DxB2GRCWDoHUSJnSnbOL_YQsO0YwQs_j8ex_mDHbGRG8YM8E_eTrGqFEzKf8EQgTk4Mq2imb3PwL9QDycKwJtAXx_yRVW0srD9h8PYQfJvRlbHoJrXlFVLTvcu4bdMGYR_Y0HBlUExyR_xK8s27hTptSF6vztxsA2wObHqR-v6lfvsF_DZmyGzF"/>
+      <!-- User Profile Dropdown -->
+      <div class="relative group" id="profile-container">
+        <div class="flex items-center gap-1.5 cursor-pointer" id="profile-btn">
+          <div id="nav-avatar" class="w-8 h-8 rounded bg-primary flex items-center justify-center text-white font-bold text-base">
+            C
+          </div>
+          <span class="material-symbols-outlined text-neutral-400 text-sm transition-transform group-hover:rotate-180">arrow_drop_down</span>
+        </div>
+        <!-- Profile Dropdown panel -->
+        <div class="absolute right-0 top-10 w-44 bg-[#141414] border border-neutral-800 rounded shadow-xl hidden group-hover:block z-50 text-sm font-medium py-1.5">
+          <a class="block px-4 py-2 hover:bg-neutral-800 text-white cursor-pointer" id="dropdown-switch-profile">
+            Switch Profile
+          </a>
+          <a class="block px-4 py-2 hover:bg-neutral-800 text-white cursor-pointer" href="#watchlist">
+            My List
+          </a>
+          <hr class="border-neutral-800 my-1"/>
+          <a class="block px-4 py-2 hover:bg-neutral-800 text-neutral-400 hover:text-white cursor-pointer" id="dropdown-signout">
+            Exit NetMirror
+          </a>
+        </div>
       </div>
     </div>
   </header>
-
-  <!-- Mobile Search overlay bar (hidden by default) -->
-  <div id="mobile-search-bar" class="fixed top-16 left-0 w-full z-40 bg-surface border-b border-white/10 px-margin-mobile py-3 flex gap-2 lg:hidden transition-all duration-300 transform -translate-y-full opacity-0 pointer-events-none">
-    <input id="mobile-search-input" class="flex-1 bg-surface-container-low border border-outline-variant/30 text-on-surface focus:ring-1 focus:ring-primary rounded-full px-4 py-2 text-sm" placeholder="Search titles..." type="text"/>
-    <button id="mobile-search-submit" class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full font-bold text-xs">Search</button>
-  </div>
 
   <!-- Dynamic Views Mount Point -->
   <main id="app-view">
@@ -198,52 +170,159 @@
   </main>
 
   <!-- Footer -->
-  <footer class="w-full py-lg mt-xl bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant/20 flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop gap-gutter z-10 relative">
-    <div class="flex flex-col items-center md:items-start gap-xs">
-      <span class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-extrabold tracking-tighter">Movies Commander</span>
-      <p class="font-body-md text-body-md text-on-surface-variant text-center md:text-left">© 2026 Movies Commander. Cinematic Excellence.</p>
+  <footer class="w-full py-12 px-6 md:px-12 bg-[#111111] border-t border-neutral-900 mt-20 relative z-10 flex flex-col md:flex-row justify-between items-center gap-6">
+    <div class="flex flex-col items-center md:items-start gap-1">
+      <span class="font-title font-extrabold text-primary text-xl tracking-tighter">NETMIRROR</span>
+      <p class="text-neutral-500 text-xs text-center md:text-left">© 2026 NetMirror. Familiar interfaces, premium aggregation.</p>
     </div>
-    <nav class="flex flex-wrap justify-center gap-md">
-      <a class="text-on-surface-variant hover:text-secondary-fixed transition-colors font-body-md text-body-md" href="#privacy">Privacy Policy</a>
-      <a class="text-on-surface-variant hover:text-secondary-fixed transition-colors font-body-md text-body-md" href="#terms">Terms of Service</a>
-      <a class="text-on-surface-variant hover:text-secondary-fixed transition-colors font-body-md text-body-md" href="#cookies">Cookie Settings</a>
-      <a class="text-on-surface-variant hover:text-secondary-fixed transition-colors font-body-md text-body-md" href="#help">Help Center</a>
+    <nav class="flex flex-wrap justify-center gap-6 text-xs md:text-sm font-normal">
+      <a class="text-neutral-400 hover:text-white transition-colors" href="#privacy">Privacy Policy</a>
+      <a class="text-neutral-400 hover:text-white transition-colors" href="#terms">Terms of Service</a>
+      <a class="text-neutral-400 hover:text-white transition-colors" href="#cookies">Cookie Preferences</a>
+      <a class="text-neutral-400 hover:text-white transition-colors" href="#help">Help Center</a>
     </nav>
-    <div class="flex gap-md">
-      <button class="w-10 h-10 flex items-center justify-center rounded-full bg-surface-variant hover:bg-primary transition-all text-on-surface active:scale-95">
-        <span class="material-symbols-outlined">public</span>
+    <div class="flex gap-4">
+      <button class="w-9 h-9 flex items-center justify-center rounded-full bg-neutral-800 hover:bg-primary transition-all text-white active:scale-95">
+        <span class="material-symbols-outlined text-lg">public</span>
       </button>
-      <button class="w-10 h-10 flex items-center justify-center rounded-full bg-surface-variant hover:bg-primary transition-all text-on-surface active:scale-95">
-        <span class="material-symbols-outlined">share</span>
+      <button class="w-9 h-9 flex items-center justify-center rounded-full bg-neutral-800 hover:bg-primary transition-all text-white active:scale-95">
+        <span class="material-symbols-outlined text-lg">share</span>
       </button>
     </div>
   </footer>
 
-  <!-- Mobile Bottom Navigation Bar -->
-  <nav class="md:hidden fixed bottom-0 left-0 w-full bg-surface/90 backdrop-blur-xl border-t border-white/10 z-50 flex justify-around py-3">
-    <a href="#home" id="mobile-nav-home" class="flex flex-col items-center text-on-surface-variant">
-      <span class="material-symbols-outlined">home</span>
-      <span class="text-[10px] font-label-sm uppercase mt-1">Home</span>
+  <!-- Mobile Bottom Navigation Bar (Hidden on medium screens) -->
+  <nav class="md:hidden fixed bottom-0 left-0 w-full bg-[#141414]/95 backdrop-blur-xl border-t border-neutral-850 z-[100] flex justify-around py-2">
+    <a href="#home" id="mobile-nav-home" class="flex flex-col items-center text-primary">
+      <span class="material-symbols-outlined text-xl">home</span>
+      <span class="text-[9px] font-medium mt-0.5">Home</span>
     </a>
-    <a href="#movies" id="mobile-nav-movies" class="flex flex-col items-center text-on-surface-variant">
-      <span class="material-symbols-outlined">movie</span>
-      <span class="text-[10px] font-label-sm uppercase mt-1">Movies</span>
+    <a href="#movies" id="mobile-nav-movies" class="flex flex-col items-center text-neutral-400">
+      <span class="material-symbols-outlined text-xl">movie</span>
+      <span class="text-[9px] font-medium mt-0.5">Movies</span>
     </a>
-    <a href="#series" id="mobile-nav-series" class="flex flex-col items-center text-on-surface-variant">
-      <span class="material-symbols-outlined">tv</span>
-      <span class="text-[10px] font-label-sm uppercase mt-1">Series</span>
+    <a href="#series" id="mobile-nav-series" class="flex flex-col items-center text-neutral-400">
+      <span class="material-symbols-outlined text-xl">tv</span>
+      <span class="text-[9px] font-medium mt-0.5">Series</span>
     </a>
-    <a href="#watchlist" id="mobile-nav-watchlist" class="flex flex-col items-center text-on-surface-variant">
-      <span class="material-symbols-outlined">bookmark</span>
-      <span class="text-[10px] font-label-sm uppercase mt-1">Watchlist</span>
+    <a href="#watchlist" id="mobile-nav-watchlist" class="flex flex-col items-center text-neutral-400">
+      <span class="material-symbols-outlined text-xl">bookmark</span>
+      <span class="text-[9px] font-medium mt-0.5">My List</span>
     </a>
   </nav>
 
+  <!-- Netflix-Style Detail Pop-up Modal Container -->
+  <div id="netflix-modal" class="netflix-modal-backdrop">
+    <div class="netflix-modal-content">
+      <!-- Content populated dynamically via app.js -->
+    </div>
+  </div>
+
+  <!-- Fullscreen Video Player Container -->
+  <div id="fullscreen-player" class="fixed inset-0 bg-black z-[500] hidden flex-col">
+    <!-- Video Frame -->
+    <div id="player-video-frame" class="w-full h-full relative z-10 flex items-center justify-center">
+      <!-- HTML5 video element loaded dynamically -->
+    </div>
+
+    <!-- Buffering/Loading Screen -->
+    <div id="player-buffering" class="buffering-overlay active">
+      <div class="netmirror-spinner"></div>
+      <p id="player-buffering-text" class="text-white text-base font-semibold tracking-wide">Connecting to Server...</p>
+    </div>
+
+    <!-- Exit/Close Button (Top Left) -->
+    <button id="player-exit-btn" class="absolute top-6 left-6 z-40 bg-black/60 hover:bg-[#1f1f1f]/80 text-white p-3 rounded-full border border-neutral-800 flex items-center justify-center active:scale-95 duration-200 shadow-lg">
+      <span class="material-symbols-outlined text-xl">arrow_back</span>
+    </button>
+
+    <!-- Mirror Switcher Widget Sidebar (Top Right) -->
+    <div class="absolute top-6 right-6 z-40 flex items-center gap-3">
+      <button id="player-mirrors-toggle" class="bg-black/60 hover:bg-[#1f1f1f]/80 hover:text-primary text-white px-4 py-2.5 rounded border border-neutral-800 flex items-center gap-2 font-medium active:scale-95 transition-all shadow-lg text-sm">
+        <span class="material-symbols-outlined text-sm">dns</span>
+        Change Server (Mirror)
+      </button>
+    </div>
+
+    <!-- Mirror Selector Panel -->
+    <div id="player-mirrors-panel" class="mirror-sidebar">
+      <h3 class="text-white font-semibold mb-3 text-sm flex items-center gap-1.5 border-b border-neutral-800 pb-2">
+        <span class="material-symbols-outlined text-sm text-primary">lan</span>
+        Select Stream Source
+      </h3>
+      <div class="flex flex-col" id="mirrors-list">
+        <!-- Buttons loaded dynamically -->
+      </div>
+    </div>
+
+    <!-- Netflix-style Player Control Overlay (Bottom) -->
+    <div id="player-controls" class="absolute bottom-0 left-0 w-full p-4 md:p-6 player-controls-container z-30 pointer-events-auto flex flex-col gap-4 opacity-100 transition-opacity duration-300">
+      
+      <!-- Progress timeline bar -->
+      <div class="relative w-full h-1.5 bg-white/20 hover:h-2 transition-all cursor-pointer rounded-full group" id="player-progress-bar">
+        <div id="player-progress-fill" class="absolute top-0 left-0 h-full bg-primary w-0 shadow-[0_0_10px_rgba(229,9,20,0.8)] rounded-full"></div>
+        <div id="player-progress-handle" class="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" style="left: 0%"></div>
+      </div>
+      
+      <div class="flex items-center justify-between text-white">
+        <!-- Left controls -->
+        <div class="flex items-center gap-4 md:gap-6">
+          <button id="player-play-btn" class="control-icon-btn" title="Play/Pause">
+            <span class="material-symbols-outlined text-2xl fill-icon" id="player-play-icon">pause</span>
+          </button>
+          
+          <button id="player-skip-back" class="control-icon-btn" title="Back 10 Seconds">
+            <span class="material-symbols-outlined text-2xl">replay_10</span>
+          </button>
+          
+          <button id="player-skip-forward" class="control-icon-btn" title="Forward 10 Seconds">
+            <span class="material-symbols-outlined text-2xl">forward_10</span>
+          </button>
+          
+          <div class="flex items-center gap-2 group/volume">
+            <button id="player-mute-btn" class="control-icon-btn" title="Mute/Unmute">
+              <span class="material-symbols-outlined text-2xl" id="player-volume-icon">volume_up</span>
+            </button>
+            <input type="range" min="0" max="1" step="0.05" value="0.8" id="player-volume-slider" class="w-0 group-hover/volume:w-20 focus/volume:w-20 transition-all duration-300 h-1 bg-white/20 rounded-lg appearance-none cursor-pointer accent-primary"/>
+          </div>
+          
+          <span id="player-time-display" class="text-sm font-medium tracking-wide">0:00 / 0:00</span>
+        </div>
+        
+        <!-- Right controls -->
+        <div class="flex items-center gap-4 md:gap-5">
+          <!-- Playback Speed -->
+          <button id="player-speed-btn" class="text-xs font-semibold hover:text-primary border border-neutral-700 hover:border-primary px-2.5 py-1 rounded bg-black/40 transition-colors uppercase tracking-wider text-[11px]" title="Playback Speed">1.0x</button>
+          
+          <!-- Audio/Subtitle Menu -->
+          <div class="relative group/menu">
+            <button id="player-language-btn" class="control-icon-btn" title="Audio & Subtitles">
+              <span class="material-symbols-outlined text-2xl">chat_bubble</span>
+            </button>
+            <!-- Dropdown -->
+            <div class="absolute bottom-12 right-1/2 translate-x-1/2 w-48 bg-[#181818] border border-neutral-800 rounded shadow-2xl p-3 text-xs hidden group-hover/menu:block hover:block z-50">
+              <h4 class="font-bold border-b border-neutral-800 pb-1.5 mb-2 text-neutral-400">Audio/Subtitle</h4>
+              <div class="flex flex-col gap-2">
+                <label class="flex items-center gap-2 cursor-pointer hover:text-primary"><input type="radio" name="lang" value="en" checked class="text-primary focus:ring-0 rounded-full bg-neutral-900 border-neutral-700"/> English Stream</label>
+                <label class="flex items-center gap-2 cursor-pointer hover:text-primary"><input type="radio" name="lang" value="es" class="text-primary focus:ring-0 rounded-full bg-neutral-900 border-neutral-700"/> Spanish Dub</label>
+                <label class="flex items-center gap-2 cursor-pointer hover:text-primary"><input type="radio" name="lang" value="hi" class="text-primary focus:ring-0 rounded-full bg-neutral-900 border-neutral-700"/> Hindi Audio</label>
+              </div>
+            </div>
+          </div>
+          
+          <button id="player-fs-btn" class="control-icon-btn" title="Full Screen">
+            <span class="material-symbols-outlined text-2xl" id="player-fs-icon">fullscreen</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Watchlist Alert Toast -->
   <div id="toast-alert" class="toast-alert">
-    <div class="flex items-center gap-2">
+    <div class="flex items-center gap-3">
       <span class="material-symbols-outlined fill-icon" id="toast-icon">check_circle</span>
-      <span id="toast-message">Added to Watchlist</span>
+      <span id="toast-message" class="font-semibold text-sm">Added to My List</span>
     </div>
   </div>
 
