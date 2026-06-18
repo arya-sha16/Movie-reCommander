@@ -50,12 +50,12 @@ function checkProfile() {
 function loadProfileState() {
   // Load Watchlist and Progress for current profile
   state.watchlist = JSON.parse(localStorage.getItem(`nm_watchlist_${state.profile}`)) || 
-                    (state.profile === 'Commander' ? ['interstellar', 'the-synthetic', 'redline-district'] : []);
+                    (state.profile === 'Commander' ? ['interstellar', 'ex-machina', 'cyberpunk-edgerunners'] : []);
   
   state.progress = JSON.parse(localStorage.getItem(`nm_progress_${state.profile}`)) || 
                     (state.profile === 'Commander' ? {
-                      "shadow-protocol": { episode: 1, remaining: "15m remaining", progress: 66, title: "Shadow Protocol", subtitle: "S1 : E1 • 15m remaining" },
-                      "dune-chronicles": { remaining: "2h 10m remaining", progress: 25, title: "Dune Chronicles", subtitle: "2h 10m remaining" }
+                      "breaking-bad": { episode: 1, remaining: "15m remaining", progress: 66, title: "Breaking Bad", subtitle: "S1 : E1 • 15m remaining" },
+                      "dune": { remaining: "2h 10m remaining", progress: 25, title: "Dune", subtitle: "2h 10m remaining" }
                     } : {});
 
   // Update profile avatar in Navbar
@@ -761,7 +761,7 @@ function renderHome() {
   const container = document.getElementById('app-view');
   
   // Get trending hero movie
-  const heroMovie = movies.find(m => m.id === 'nebula-the-last-frontier') || movies[0];
+  const heroMovie = movies.find(m => m.id === 'dune-part-two') || movies[0];
   const watchlistIcon = state.watchlist.includes(heroMovie.id) ? 'check' : 'add';
   const watchlistText = state.watchlist.includes(heroMovie.id) ? 'My List' : 'Add to List';
 

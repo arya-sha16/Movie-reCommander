@@ -2,47 +2,42 @@
 export const movies = [
   {
     "id": "interstellar",
-    "title": "Interstellar Journey",
+    "title": "Interstellar",
     "year": "2014",
     "genre": [
       "Sci-Fi",
       "Drama",
-      "Space"
+      "Adventure"
     ],
     "rating": "8.7",
     "metascore": "74",
     "duration": "2h 49m",
-    "director": "Christopher Thorne",
-    "writers": "Jonathan Miller, Chris Thorne",
+    "director": "Christopher Nolan",
+    "writers": "Jonathan Nolan, Christopher Nolan",
     "specs": [
       "Sci-Fi",
       "4K UHD",
       "2h 49m"
     ],
-    "synopsis": "When humanity faces extinction on a dying Earth, a team of ex-pilots and scientists must embark on the most important mission in human history: traveling beyond this galaxy to discover whether mankind has a future among the stars. Through the lens of a father-daughter relationship, witness a journey through space and time that defies physics.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuAAgLKEPt8VXlYTh1a8vjVpXPPHrgoVtrxK1cfXpaZ7zea7XRHBLjT5DlZcCnDoUwie-9WF29tu-rxo7CoKwDNnu7cszDYMWITGgjVxdnOs_CHSX0ZAGWJESZdM4V0BVOGHymZR83kiHbJ-dcP6HJYZdgvZoZgWN6w5yT1oGsq_LhNGOwuHF1Mp5l2lLENLge_TRfdSB6enRIl15riEBdHGZW7xsASZc8-eyN1M9Tx0n1LDv_Nan3CKm9WeR7JgzyfVxXNXHRAggWIJ",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuD4P-W5bav99KCWBjub6gU7sXNYSuymOnD_NFO8boFIL-1Wywm37JGIP9V8OW_B64pu3F21S85lKy3rM8GtpIgsPTsxT3UKPv5mM-w4tJIxVuc_pTp4y5mwX-gUCmljAx5aq2fQQJHa1lUOXvvEZLR-EkjxnLFioj6SjA6fkgGDSk-rf6vARe3QDd74J6yWTh8QbqUpmbp8wWp6VJ-VPWYquN9UMYH_zUxvoXED0FG3tXW9kuryGAGs1KxSli597GTB3-6C3Dcs2QX4",
+    "synopsis": "When humanity faces extinction on a dying Earth, a team of ex-pilots and scientists must embark on the most important mission in human history: traveling beyond this galaxy to discover whether mankind has a future among the stars.",
+    "poster": "https://image.tmdb.org/t/p/w500/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
     "cast": [
       {
-        "name": "M. Cooper",
-        "character": "Joseph Cooper",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "name": "Matthew McConaughey",
+        "character": "Cooper",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
       },
       {
-        "name": "J. Brand",
-        "character": "Dr. Amelia Brand",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBQ1rGFDSHWxXWzZfPqnO_Ii1aHqA4Bp0aWpGCpw5DkAOyUQxsa1x2v-by335cqFItvewr9gm7rI7OXXxEri-KOPCd-zTGLwwdUelzY5KpUU_iFFpB5L5WOh49fnjWA4yOpd6WI3mrsRRBjsDl_MdpzFtotNl6HwGocJYNs25hRwacdnJhdxrMt_8u7ZEA2NCuhpYuoSuUjekvrJIxUBTwyg34_grAuaZ6ShFDPhVDf-il9Pqvs0MdAvr7kSQO3Eo4GI22NmqcV2p3W"
+        "name": "Anne Hathaway",
+        "character": "Brand",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
       },
       {
-        "name": "Dr. Mann",
-        "character": "Classified",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDLYxEaIig9q3GJub_9zKp3xFlJRdiunDGTRZD3TJWmTlHbfZtnc5vPOPsfU0uh1oOFx-jhZhYsNzdqKKjCT22kYvPegG52habmsglmYIly4yD-Q1cA2vtW2999okoSEohbf2vspoqyVyAtftwsEMgOiT2qouvglZkVxnTMKWPN1Lu-MBF9tWWc0AXcb0do3e-aJOyi05PzMwkZ0cQKS4EJ_pSQZ4YLuNXVR8uf_ZmF-m0Seb3fUd2Kt8eD9KyraCQ6JsGzuiolyp5b"
-      },
-      {
-        "name": "T. Miller",
-        "character": "Scientist",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBbH4RRytzFT4L0KaL6m3BeP1w-cpSOYKGE0KLr8xOvWVT-XfXaDVoBgN5P-PYqNL_fUMo43iQJWTe7zB6QlyN0HmHyEaBZmgxeidcwnjjPyet1H62rVe11mNOHFj6UtiV3IUckoSqj4j_a8TCH-7N3-NClhseFm5LspTOTlK8WOpAbxFTvdD_wnLUrPLQWB-hGTX4dCXswftE9zgQTzkVKVFSQVyTNfHt02spH-ww69hv6fmpslJ4ZCVn6K5JH_EBecVx2HaoS3ZME"
+        "name": "Jessica Chastain",
+        "character": "Murph",
+        "image": "https://image.tmdb.org/t/p/w185/9N22y0sF8p0q437j8Rj8l6gElLp.jpg"
       }
     ],
     "type": "movie"
@@ -67,81 +62,96 @@ export const movies = [
       "2h 28m"
     ],
     "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuDtgfpC0zOnAG3QoiNJmelRJmvADbmivkPr9tQPjdlRdib2iCUydPHSGez01spMCSW93kvU-jLVVihmMzquRA42znHIVHS6UuHf6m-uhENYqxM12l_WXOBDryxp4zkz9pf1GH9tcyhpwtHZngvZ2yxUH2TBalpfbycDMLzErmbOHOcXjsxs4bZw0K8_1aLsqi1MRk1q2uhz_hJhoxDt1SlC45A3vnKC2dihYz4udOLd2awwI2yhl4o6ORsIefYwbhoR4ClLY5wzV6Qs",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuDtgfpC0zOnAG3QoiNJmelRJmvADbmivkPr9tQPjdlRdib2iCUydPHSGez01spMCSW93kvU-jLVVihmMzquRA42znHIVHS6UuHf6m-uhENYqxM12l_WXOBDryxp4zkz9pf1GH9tcyhpwtHZngvZ2yxUH2TBalpfbycDMLzErmbOHOcXjsxs4bZw0K8_1aLsqi1MRk1q2uhz_hJhoxDt1SlC45A3vnKC2dihYz4udOLd2awwI2yhl4o6ORsIefYwbhoR4ClLY5wzV6Qs",
+    "poster": "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
     "cast": [
       {
-        "name": "L. DiCaprio",
+        "name": "Leonardo DiCaprio",
         "character": "Cobb",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "image": "https://image.tmdb.org/t/p/w185/wo2hJemiikpw4Cl2Q4AdOI410mX.jpg"
       },
       {
-        "name": "J. Gordon-Levitt",
+        "name": "Joseph Gordon-Levitt",
         "character": "Arthur",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBQ1rGFDSHWxXWzZfPqnO_Ii1aHqA4Bp0aWpGCpw5DkAOyUQsa1x2v-by335cqFItvewr9gm7rI7OXXxEri-KOPCd-zTGLwwdUelzY5KpUU_iFFpB5L5WOh49fnjWA4yOpd6WI3mrsRRBjsDl_MdpzFtotNl6HwGocJYNs25hRwacdnJhdxrMt_8u7ZEA2NCuhpYuoSuUjekvrJIxUBTwyg34_grAuaZ6ShFDPhVDf-il9Pqvs0MdAvr7kSQO3Eo4GI22NmqcV2p3W"
+        "image": "https://image.tmdb.org/t/p/w185/cT83wCxNsRpmS69YJcvcpqpqpqp.jpg"
+      },
+      {
+        "name": "Elliot Page",
+        "character": "Ariadne",
+        "image": "https://image.tmdb.org/t/p/w185/6T3wNsRpmS69YJcvcpqpqpqp1.jpg"
       }
     ],
     "type": "movie"
   },
   {
-    "id": "nebula-the-last-frontier",
-    "title": "Nebula: The Last Frontier",
+    "id": "dune-part-two",
+    "title": "Dune: Part Two",
     "year": "2024",
     "genre": [
       "Sci-Fi",
       "Adventure"
     ],
-    "rating": "8.4",
-    "metascore": "82",
-    "duration": "2h 45m",
-    "director": "Marcus Vance",
-    "writers": "Evelyn Carter",
+    "rating": "8.6",
+    "metascore": "79",
+    "duration": "2h 46m",
+    "director": "Denis Villeneuve",
+    "writers": "Denis Villeneuve, Jon Spaihts",
     "specs": [
       "Sci-Fi",
       "4K UHD",
-      "2h 45m"
+      "2h 46m"
     ],
-    "synopsis": "When a deep-space research vessel discovers an ancient signal originating from the heart of a dying nebula, a rogue commander must lead a desperate mission to unlock the secrets of a civilization that vanished millennia ago.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuCP4ByG71xpSYhue5gjHBE1AVE48DgYUh5_7zbvKt8EA-8NRPQsis7wXHTzsZolazkp5ekITH4OcIHzGrx7NaJqTIsRjbuUECEN7H0JdxG8sn9TZLcJb5F3jH4sLATXv2hxYhuIO8-LeJOoy5IboYKyABmyy6Gr-noMq107vRDCZwYsszpCREutD69lWHjidCxsPuJyZrrMG364dzpExCY2TLwNRYtADkI-CZDPd88GbWkuNWik9tXuwdk-itII3dhdHI-gHYMtOQC0",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuCP4ByG71xpSYhue5gjHBE1AVE48DgYUh5_7zbvKt8EA-8NRPQsis7wXHTzsZolazkp5ekITH4OcIHzGrx7NaJqTIsRjbuUECEN7H0JdxG8sn9TZLcJb5F3jH4sLATXv2hxYhuIO8-LeJOoy5IboYKyABmyy6Gr-noMq107vRDCZwYsszpCREutD69lWHjidCxsPuJyZrrMG364dzpExCY2TLwNRYtADkI-CZDPd88GbWkuNWik9tXuwdk-itII3dhdHI-gHYMtOQC0",
+    "synopsis": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he endeavors to prevent a terrible future only he can foresee.",
+    "poster": "https://image.tmdb.org/t/p/w500/3HzGtM0JpfH2pWFGugJK22LRP6b.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "cast": [
       {
-        "name": "C. Pine",
-        "character": "Cmdr. Logan",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "name": "Timothée Chalamet",
+        "character": "Paul Atreides",
+        "image": "https://image.tmdb.org/t/p/w185/BEw4b8rT5H3pLd489QJ2yqD1Q1.jpg"
+      },
+      {
+        "name": "Zendaya",
+        "character": "Chani",
+        "image": "https://image.tmdb.org/t/p/w185/y42rwR5D46i6t65r5tqS0227R7.jpg"
       }
     ],
     "type": "movie"
   },
   {
-    "id": "shadow-protocol",
-    "title": "Shadow Protocol",
-    "year": "2023",
+    "id": "breaking-bad",
+    "title": "Breaking Bad",
+    "year": "2008",
     "genre": [
-      "Thriller",
-      "Action"
+      "Drama",
+      "Crime"
     ],
-    "rating": "8.2",
-    "metascore": "71",
-    "duration": "1h 55m",
-    "director": "Alex Cross",
-    "writers": "David Miller",
+    "rating": "9.5",
+    "metascore": "96",
+    "duration": "5 Seasons",
+    "director": "Vince Gilligan",
+    "writers": "Vince Gilligan",
     "specs": [
-      "Thriller",
-      "HD",
-      "1h 55m"
+      "Drama",
+      "SERIES",
+      "5 Seasons"
     ],
-    "synopsis": "A rogue agent runs from a shadowy organization after uncovering top-secret security credentials, embarking on a high-stakes cat-and-mouse game through rain-slicked city alleys at night.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG3z0sQ21DJkX2lZ_KAu3t-BCJI1a7RLdr0lXiCB43efuUuxERazJHu6UVEaBM3ZFOdegj7Gd1ygwJxpCLavsgs3ym_cjC3CTqXxrLJVACM6Nq9qbrnogO3khMXXBdllIthRTMPf-sBpibqaDLXg5GGnGTB0DghOGD22C3bI2KjYSxCvsqQaYuDYmw2g8Wrm0lVAztW7bR3RdqChOAou6jTyOTW_JFdfxzgR0zIxG1TYR9kfIfRsfv9tiyy_i75nP-HSMUC1FsnNaO",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG3z0sQ21DJkX2lZ_KAu3t-BCJI1a7RLdr0lXiCB43efuUuxERazJHu6UVEaBM3ZFOdegj7Gd1ygwJxpCLavsgs3ym_cjC3CTqXxrLJVACM6Nq9qbrnogO3khMXXBdllIthRTMPf-sBpibqaDLXg5GGnGTB0DghOGD22C3bI2KjYSxCvsqQaYuDYmw2g8Wrm0lVAztW7bR3RdqChOAou6jTyOTW_JFdfxzgR0zIxG1TYR9kfIfRsfv9tiyy_i75nP-HSMUC1FsnNaO",
+    "synopsis": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.",
+    "poster": "https://image.tmdb.org/t/p/w500/3xnWaLQjelJDDF7LT1WBo6f4BRe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/eSVvx8xys2NuFhl8fevXt41wX7v.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
     "cast": [
       {
-        "name": "K. Reeves",
-        "character": "John Shadow",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "name": "Bryan Cranston",
+        "character": "Walter White",
+        "image": "https://image.tmdb.org/t/p/w185/77Q2Wf432w7hU7w328h4uugb.jpg"
+      },
+      {
+        "name": "Aaron Paul",
+        "character": "Jesse Pinkman",
+        "image": "https://image.tmdb.org/t/p/w185/9fa6tG7UB7szpaU3968875u.jpg"
       }
     ],
     "type": "series",
@@ -151,127 +161,101 @@ export const movies = [
         "episodes": [
           {
             "episodeNumber": 1,
-            "title": "The Ghost Protocol",
-            "runtime": "45m",
-            "synopsis": "John Shadow is tasked with retrieving a stolen database from a high-security vault in Berlin.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG3z0sQ21DJkX2lZ_KAu3t-BCJI1a7RLdr0lXiCB43efuUuxERazJHu6UVEaBM3ZFOdegj7Gd1ygwJxpCLavsgs3ym_cjC3CTqXxrLJVACM6Nq9qbrnogO3khMXXBdllIthRTMPf-sBpibqaDLXg5GGnGTB0DghOGD22C3bI2KjYSxCvsqQaYuDYmw2g8Wrm0lVAztW7bR3RdqChOAou6jTyOTW_JFdfxzgR0zIxG1TYR9kfIfRsfv9tiyy_i75nP-HSMUC1FsnNaO",
+            "title": "Pilot",
+            "runtime": "58m",
+            "synopsis": "When chemistry teacher Walter White is diagnosed with Stage III cancer, he decides to manufacture meth with his former student Jesse Pinkman.",
+            "thumbnail": "https://image.tmdb.org/t/p/w300/eSVvx8xys2NuFhl8fevXt41wX7v.jpg",
             "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
           },
           {
             "episodeNumber": 2,
-            "title": "Neon Shadows",
+            "title": "Cat's in the Bag...",
             "runtime": "48m",
-            "synopsis": "Cornered in a rain-slicked neon street, Shadow must forge an alliance with a former rival agent.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG3z0sQ21DJkX2lZ_KAu3t-BCJI1a7RLdr0lXiCB43efuUuxERazJHu6UVEaBM3ZFOdegj7Gd1ygwJxpCLavsgs3ym_cjC3CTqXxrLJVACM6Nq9qbrnogO3khMXXBdllIthRTMPf-sBpibqaDLXg5GGnGTB0DghOGD22C3bI2KjYSxCvsqQaYuDYmw2g8Wrm0lVAztW7bR3RdqChOAou6jTyOTW_JFdfxzgR0zIxG1TYR9kfIfRsfv9tiyy_i75nP-HSMUC1FsnNaO",
+            "synopsis": "Walt and Jesse clean up after the drug deal gone wrong, but Krazy-8 presents a deadly complication.",
+            "thumbnail": "https://image.tmdb.org/t/p/w300/eSVvx8xys2NuFhl8fevXt41wX7v.jpg",
             "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
           },
           {
             "episodeNumber": 3,
-            "title": "The Infiltration",
-            "runtime": "50m",
-            "synopsis": "The team infiltrates the corporate headquarters of the shadowy organization during a black-tie gala.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG3z0sQ21DJkX2lZ_KAu3t-BCJI1a7RLdr0lXiCB43efuUuxERazJHu6UVEaBM3ZFOdegj7Gd1ygwJxpCLavsgs3ym_cjC3CTqXxrLJVACM6Nq9qbrnogO3khMXXBdllIthRTMPf-sBpibqaDLXg5GGnGTB0DghOGD22C3bI2KjYSxCvsqQaYuDYmw2g8Wrm0lVAztW7bR3RdqChOAou6jTyOTW_JFdfxzgR0zIxG1TYR9kfIfRsfv9tiyy_i75nP-HSMUC1FsnNaO",
+            "title": "...And the Bag's in the River",
+            "runtime": "48m",
+            "synopsis": "Walt is forced to decide whether to kill Krazy-8, while Marie suspects Walt is smoking marijuana.",
+            "thumbnail": "https://image.tmdb.org/t/p/w300/eSVvx8xys2NuFhl8fevXt41wX7v.jpg",
             "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-          },
-          {
-            "episodeNumber": 4,
-            "title": "Protocol Override (Season Finale)",
-            "runtime": "55m",
-            "synopsis": "A race against time to stop the activation of a global satellite tracking network.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG3z0sQ21DJkX2lZ_KAu3t-BCJI1a7RLdr0lXiCB43efuUuxERazJHu6UVEaBM3ZFOdegj7Gd1ygwJxpCLavsgs3ym_cjC3CTqXxrLJVACM6Nq9qbrnogO3khMXXBdllIthRTMPf-sBpibqaDLXg5GGnGTB0DghOGD22C3bI2KjYSxCvsqQaYuDYmw2g8Wrm0lVAztW7bR3RdqChOAou6jTyOTW_JFdfxzgR0zIxG1TYR9kfIfRsfv9tiyy_i75nP-HSMUC1FsnNaO",
-            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
-          }
-        ]
-      },
-      {
-        "seasonNumber": 2,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "Redux",
-            "runtime": "47m",
-            "synopsis": "Living in hiding in Tokyo, John Shadow is pulled back into the game when a new threat emerges.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG3z0sQ21DJkX2lZ_KAu3t-BCJI1a7RLdr0lXiCB43efuUuxERazJHu6UVEaBM3ZFOdegj7Gd1ygwJxpCLavsgs3ym_cjC3CTqXxrLJVACM6Nq9qbrnogO3khMXXBdllIthRTMPf-sBpibqaDLXg5GGnGTB0DghOGD22C3bI2KjYSxCvsqQaYuDYmw2g8Wrm0lVAztW7bR3RdqChOAou6jTyOTW_JFdfxzgR0zIxG1TYR9kfIfRsfv9tiyy_i75nP-HSMUC1FsnNaO",
-            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
-          },
-          {
-            "episodeNumber": 2,
-            "title": "Cyber City Gridlock",
-            "runtime": "52m",
-            "synopsis": "A high-speed cyber pursuit disrupts the central transport network of a major metropolitan area.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG3z0sQ21DJkX2lZ_KAu3t-BCJI1a7RLdr0lXiCB43efuUuxERazJHu6UVEaBM3ZFOdegj7Gd1ygwJxpCLavsgs3ym_cjC3CTqXxrLJVACM6Nq9qbrnogO3khMXXBdllIthRTMPf-sBpibqaDLXg5GGnGTB0DghOGD22C3bI2KjYSxCvsqQaYuDYmw2g8Wrm0lVAztW7bR3RdqChOAou6jTyOTW_JFdfxzgR0zIxG1TYR9kfIfRsfv9tiyy_i75nP-HSMUC1FsnNaO",
-            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-          },
-          {
-            "episodeNumber": 3,
-            "title": "System Purge",
-            "runtime": "51m",
-            "synopsis": "Shadow locates the central server node and prepares to launch a system-wide purge.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG3z0sQ21DJkX2lZ_KAu3t-BCJI1a7RLdr0lXiCB43efuUuxERazJHu6UVEaBM3ZFOdegj7Gd1ygwJxpCLavsgs3ym_cjC3CTqXxrLJVACM6Nq9qbrnogO3khMXXBdllIthRTMPf-sBpibqaDLXg5GGnGTB0DghOGD22C3bI2KjYSxCvsqQaYuDYmw2g8Wrm0lVAztW7bR3RdqChOAou6jTyOTW_JFdfxzgR0zIxG1TYR9kfIfRsfv9tiyy_i75nP-HSMUC1FsnNaO",
-            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
           }
         ]
       }
     ]
   },
   {
-    "id": "dune-chronicles",
-    "title": "Dune Chronicles",
+    "id": "dune",
+    "title": "Dune",
     "year": "2021",
     "genre": [
       "Sci-Fi",
       "Adventure"
     ],
-    "rating": "8.5",
-    "metascore": "80",
+    "rating": "8.0",
+    "metascore": "74",
     "duration": "2h 35m",
     "director": "Denis Villeneuve",
-    "writers": "Frank Herbert",
+    "writers": "Denis Villeneuve, Jon Spaihts",
     "specs": [
       "Sci-Fi",
       "4K HDR",
       "2h 35m"
     ],
-    "synopsis": "A futuristic desert city at sunset, where massive solar spires catch the golden light. Follow the journey of a young nobleman tasked with securing the most vital element in the galaxy.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuBcf0iB5K64GDYi7eVT_X401_r3q200b1ArVc_Ayb4O1oNuvcK2j6cHMADUWI0vJxmuZLcQhzVfNjsbgrzDrmcHOT-PJ-A9gctSsOKIVPX3oXw7Hfh-R9IMkH6SMf2ngPytqFftQfILHLWjWjawXzyFLdNZz1Bm11aMap6rpHD-Eds0dUWvSNycaCRiq-5DL-fOFv9kZgD2K05GyfQAN1L_mINqPS-BWLm_7WSiQSfGTVs6RlvLfjMZ3dHbSYed5zbTetn1l7kgYyAm",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuBcf0iB5K64GDYi7eVT_X401_r3q200b1ArVc_Ayb4O1oNuvcK2j6cHMADUWI0vJxmuZLcQhzVfNjsbgrzDrmcHOT-PJ-A9gctSsOKIVPX3oXw7Hfh-R9IMkH6SMf2ngPytqFftQfILHLWjWjawXzyFLdNZz1Bm11aMap6rpHD-Eds0dUWvSNycaCRiq-5DL-fOFv9kZgD2K05GyfQAN1L_mINqPS-BWLm_7WSiQSfGTVs6RlvLfjMZ3dHbSYed5zbTetn1l7kgYyAm",
+    "synopsis": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people.",
+    "poster": "https://image.tmdb.org/t/p/w500/pc15b0pi8o1oUv9vNhakwMQ9TxA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
     "cast": [
       {
-        "name": "T. Chalamet",
-        "character": "Paul",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "name": "Timothée Chalamet",
+        "character": "Paul Atreides",
+        "image": "https://image.tmdb.org/t/p/w185/BEw4b8rT5H3pLd489QJ2yqD1Q1.jpg"
+      },
+      {
+        "name": "Rebecca Ferguson",
+        "character": "Lady Jessica",
+        "image": "https://image.tmdb.org/t/p/w185/9fa6tG7UB7szpaU3968875u.jpg"
       }
     ],
     "type": "movie"
   },
   {
-    "id": "atlantis-rising",
-    "title": "Atlantis Rising",
-    "year": "2022",
+    "id": "stranger-things",
+    "title": "Stranger Things",
+    "year": "2016",
     "genre": [
-      "Adventure",
-      "Fantasy"
+      "Sci-Fi",
+      "Drama",
+      "Mystery"
     ],
-    "rating": "8.0",
-    "metascore": "72",
-    "duration": "2h 15m",
-    "director": "Arthur Curry",
-    "writers": "Mera Ocean",
+    "rating": "8.7",
+    "metascore": "90",
+    "duration": "4 Seasons",
+    "director": "The Duffer Brothers",
+    "writers": "Matt Duffer, Ross Duffer",
     "specs": [
-      "Adventure",
-      "4K",
-      "2h 15m"
+      "Sci-Fi",
+      "SERIES",
+      "4 Seasons"
     ],
-    "synopsis": "An underwater perspective of a sunken ancient temple, where rays of light pierce through deep blue water to illuminate overgrown ruins and bio-luminescent fish.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuCzYsAvvAjW349sQYrytKOqWP8K9XHC5qtlpPVAGd_EiYg-WV5fYuP9URi2AJsUapRRShMcJWsoJgbLTq2UqqFsCKPINTJ4EHujPY3-JwbAEhOlAFFfe9RIpHf62OBVV0Sq4o5rhpZmHva31B97khnwE8cQTyH9ZsFRoXbv-AMXfc02vljVyEm9JqtMZzM4burav9wJXkHX_zZsMnGeIuj_N77BG07IsKx4VYPDF5AVCuRQZr_s5Dplxz3_dSVFNqyVHxyHZfKhpVjM",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuCzYsAvvAjW349sQYrytKOqWP8K9XHC5qtlpPVAGd_EiYg-WV5fYuP9URi2AJsUapRRShMcJWsoJgbLTq2UqqFsCKPINTJ4EHujPY3-JwbAEhOlAFFfe9RIpHf62OBVV0Sq4o5rhpZmHva31B97khnwE8cQTyH9ZsFRoXbv-AMXfc02vljVyEm9JqtMZzM4burav9wJXkHX_zZsMnGeIuj_N77BG07IsKx4VYPDF5AVCuRQZr_s5Dplxz3_dSVFNqyVHxyHZfKhpVjM",
+    "synopsis": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
+    "poster": "https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "cast": [
       {
-        "name": "J. Momoa",
-        "character": "Orin",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "name": "Millie Bobby Brown",
+        "character": "Eleven",
+        "image": "https://image.tmdb.org/t/p/w185/77Q2Wf432w7hU7w328h4uugb.jpg"
+      },
+      {
+        "name": "Winona Ryder",
+        "character": "Joyce Byers",
+        "image": "https://image.tmdb.org/t/p/w185/9fa6tG7UB7szpaU3968875u.jpg"
       }
     ],
     "type": "series",
@@ -281,558 +265,337 @@ export const movies = [
         "episodes": [
           {
             "episodeNumber": 1,
-            "title": "Sunken Temple",
-            "runtime": "40m",
-            "synopsis": "A deep-sea expedition discovers an ancient temple emanating a bio-luminescent glow.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuCzYsAvvAjW349sQYrytKOqWP8K9XHC5qtlpPVAGd_EiYg-WV5fYuP9URi2AJsUapRRShMcJWsoJgbLTq2UqqFsCKPINTJ4EHujPY3-JwbAEhOlAFFfe9RIpHf62OBVV0Sq4o5rhpZmHva31B97khnwE8cQTyH9ZsFRoXbv-AMXfc02vljVyEm9JqtMZzM4burav9wJXkHX_zZsMnGeIuj_N77BG07IsKx4VYPDF5AVCuRQZr_s5Dplxz3_dSVFNqyVHxyHZfKhpVjM",
+            "title": "Chapter One: The Vanishing of Will Byers",
+            "runtime": "48m",
+            "synopsis": "On his way home from a friend's house, young Will Byers sees something terrifying. Nearby, a sinister secret lurks in the depths of a government lab.",
+            "thumbnail": "https://image.tmdb.org/t/p/w300/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
             "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
           },
           {
             "episodeNumber": 2,
-            "title": "The Coral Guardian",
-            "runtime": "43m",
-            "synopsis": "The team encounters a massive marine entity protecting the entrance to the inner chamber.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuCzYsAvvAjW349sQYrytKOqWP8K9XHC5qtlpPVAGd_EiYg-WV5fYuP9URi2AJsUapRRShMcJWsoJgbLTq2UqqFsCKPINTJ4EHujPY3-JwbAEhOlAFFfe9RIpHf62OBVV0Sq4o5rhpZmHva31B97khnwE8cQTyH9ZsFRoXbv-AMXfc02vljVyEm9JqtMZzM4burav9wJXkHX_zZsMnGeIuj_N77BG07IsKx4VYPDF5AVCuRQZr_s5Dplxz3_dSVFNqyVHxyHZfKhpVjM",
+            "title": "Chapter Two: The Weirdo on Maple Street",
+            "runtime": "55m",
+            "synopsis": "Lucas, Mike and Dustin try to talk to the girl they found in the woods. Hopper questions Will's anxious mother.",
+            "thumbnail": "https://image.tmdb.org/t/p/w300/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
             "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-          },
-          {
-            "episodeNumber": 3,
-            "title": "Abyssal Light (Season Finale)",
-            "runtime": "47m",
-            "synopsis": "As the temple rises, the deep blue waters part to reveal overgrown ruins and long-lost secrets.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuCzYsAvvAjW349sQYrytKOqWP8K9XHC5qtlpPVAGd_EiYg-WV5fYuP9URi2AJsUapRRShMcJWsoJgbLTq2UqqFsCKPINTJ4EHujPY3-JwbAEhOlAFFfe9RIpHf62OBVV0Sq4o5rhpZmHva31B97khnwE8cQTyH9ZsFRoXbv-AMXfc02vljVyEm9JqtMZzM4burav9wJXkHX_zZsMnGeIuj_N77BG07IsKx4VYPDF5AVCuRQZr_s5Dplxz3_dSVFNqyVHxyHZfKhpVjM",
-            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
           }
         ]
       }
     ]
   },
   {
-    "id": "the-synthetic",
-    "title": "The Synthetic",
-    "year": "2024",
+    "id": "ex-machina",
+    "title": "Ex Machina",
+    "year": "2014",
     "genre": [
-      "Thriller",
-      "Sci-Fi"
+      "Sci-Fi",
+      "Thriller"
     ],
-    "rating": "9.2",
-    "metascore": "88",
-    "duration": "2h 05m",
-    "director": "C. Sterling",
-    "writers": "C. Sterling",
+    "rating": "7.7",
+    "metascore": "78",
+    "duration": "1h 48m",
+    "director": "Alex Garland",
+    "writers": "Alex Garland",
     "specs": [
-      "Thriller",
-      "ULTRA HD",
-      "2h 05m"
+      "Sci-Fi",
+      "4K UHD",
+      "1h 48m"
     ],
-    "synopsis": "A striking minimalist portrait of a cybernetic face split between human skin and intricate metallic circuitry, as artificial minds begin to request moral agency.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuCQ3QEGvApLDDVy_V1QrVZ67YDsit15qOYmnawvF1vZfe6Vd9tF7jdEWyddb0UPhdNo3lt1gZJPpNYNNefa8zrvqFb7vwNcJDL0daULF0RM9cWQxRNmnJLTS6-91BJxbUXULZ2lVs0m_QsEBNRrA9e2L5irtPifVoUCsNdlrCeNEe6-vhSGxKPvIqYWkKJ-OT7lssINU-F5_6CgVc-qUiq6luv6mnR9_PH5x7G9hRyZYCjqDdaLgvaL5zU-VqffipAbRn6r1zvYWPcS",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuCQ3QEGvApLDDVy_V1QrVZ67YDsit15qOYmnawvF1vZfe6Vd9tF7jdEWyddb0UPhdNo3lt1gZJPpNYNNefa8zrvqFb7vwNcJDL0daULF0RM9cWQxRNmnJLTS6-91BJxbUXULZ2lVs0m_QsEBNRrA9e2L5irtPifVoUCsNdlrCeNEe6-vhSGxKPvIqYWkKJ-OT7lssINU-F5_6CgVc-qUiq6luv6mnR9_PH5x7G9hRyZYCjqDdaLgvaL5zU-VqffipAbRn6r1zvYWPcS",
+    "synopsis": "A programmer at a huge Internet company wins a competition to spend a week at the private estate of the company's brilliant CEO, where he is selected to be the human component in a Turing test to evaluate the capabilities of an advanced artificial intelligence.",
+    "poster": "https://image.tmdb.org/t/p/w500/dmJW8IAKHKxFNiUnoDR7JfsK7Rp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/kVqjgpcwvDJOhCupjcLzwwtOp52.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
     "cast": [
       {
-        "name": "A. Vikander",
+        "name": "Alicia Vikander",
         "character": "Ava",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBQ1rGFDSHWxXWzZfPqnO_Ii1aHqA4Bp0aWpGCpw5DkAOyUQxsa1x2v-by335cqFItvewr9gm7rI7OXXxEri-KOPCd-zTGLwwdUelzY5KpUU_iFFpB5L5WOh49fnjWA4yOpd6WI3mrsRRBjsDl_MdpzFtotNl6HwGocJYNs25hRwacdnJhdxrMt_8u7ZEA2NCuhpYuoSuUjekvrJIxUBTwyg34_grAuaZ6ShFDPhVDf-il9Pqvs0MdAvr7kSQO3Eo4GI22NmqcV2p3W"
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
+      },
+      {
+        "name": "Domhnall Gleeson",
+        "character": "Caleb",
+        "image": "https://image.tmdb.org/t/p/w185/9fa6tG7UB7szpaU3968875u.jpg"
       }
     ],
     "type": "movie"
   },
   {
-    "id": "midnight-drive",
-    "title": "Midnight Drive",
-    "year": "2023",
+    "id": "drive",
+    "title": "Drive",
+    "year": "2011",
     "genre": [
       "Drama",
-      "Action"
+      "Action",
+      "Thriller"
     ],
-    "rating": "8.8",
-    "metascore": "81",
-    "duration": "1h 48m",
-    "director": "Refn Gosling",
-    "writers": "James Sallis",
+    "rating": "7.8",
+    "metascore": "78",
+    "duration": "1h 40m",
+    "director": "Nicolas Winding Refn",
+    "writers": "Hossein Amini, James Sallis",
     "specs": [
       "Drama",
       "4K HDR",
-      "1h 48m"
+      "1h 40m"
     ],
-    "synopsis": "A vintage 1950s car drives down a lonely highway at dusk toward a glowing retro-futuristic city, catching sunset orange highlights in a journey of absolute nostalgia.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuDIV2NcUarGr2NVXDgT8a_BtENHwiabExkdTJ1n1H8HYBViFySPeMPzTxdsjOwaeNjsDm-aeN4txhzJrUTiOT1aJjouZNrrGRvfzl0ehEreWHw9iUMDqzaxiYknJhOk3wwNx_B9H2dvHMiKa2zYxEcyhebNbs4AQl-sw0fnctfSKz8If5VKsuwXtBnk_wqVi26pi9MjDDLJqVQvsnE8TCAkIazffOEy80d2hVthmXnXJd0vJOYes82fZjLfxDvWDX4-Sp_O34ig1BbM",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuDIV2NcUarGr2NVXDgT8a_BtENHwiabExkdTJ1n1H8HYBViFySPeMPzTxdsjOwaeNjsDm-aeN4txhzJrUTiOT1aJjouZNrrGRvfzl0ehEreWHw9iUMDqzaxiYknJhOk3wwNx_B9H2dvHMiKa2zYxEcyhebNbs4AQl-sw0fnctfSKz8If5VKsuwXtBnk_wqVi26pi9MjDDLJqVQvsnE8TCAkIazffOEy80d2hVthmXnXJd0vJOYes82fZjLfxDvWDX4-Sp_O34ig1BbM",
+    "synopsis": "A mysterious Hollywood stuntman and mechanic who moonlights as a getaway driver finds himself in trouble when he helps his neighbor in a high-stakes heist gone wrong.",
+    "poster": "https://image.tmdb.org/t/p/w500/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
     "cast": [
       {
-        "name": "R. Gosling",
+        "name": "Ryan Gosling",
         "character": "Driver",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      },
+      {
+        "name": "Carey Mulligan",
+        "character": "Irene",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
       }
     ],
     "type": "movie"
   },
   {
-    "id": "redline-district",
-    "title": "Redline District",
-    "year": "2024",
-    "genre": [
-      "Action",
-      "Sci-Fi"
-    ],
-    "rating": "9.5",
-    "metascore": "92",
-    "duration": "2h 10m",
-    "director": "Yashimi Akira",
-    "writers": "Yashimi Akira",
-    "specs": [
-      "Action",
-      "SERIES",
-      "2h 10m"
-    ],
-    "synopsis": "A mysterious figure wearing a tactical helmet with a glowing red visor stands under the heavy rain of a cyberpunk megacity. The neon reflections dance on wet streets.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuCK_k5QoDzQgVjwMjw9gl8I0XE1m8PFMNvRMBRDyqdf0RRWhNBBS6eEQAKipvFQNzLc68BP-yMPJC00Cjsszgjjg6-XesWgZo6bUUj9opqwITVR-D01wp6BGemW2c76Vs0rtdT4RDiqBc_N8KCzkPaNzVq33ec1BG1by0bx9hmhSxd3QUIhBnfeDJpCDF3VKW_Ntwa8g1dEP3N9GjnzM6ULd9qJJLw8FeFfKB8KUSdWf-I1EzPEGKgDcgPbeuORdbHvoTYlqnLYG6Bw",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuCK_k5QoDzQgVjwMjw9gl8I0XE1m8PFMNvRMBRDyqdf0RRWhNBBS6eEQAKipvFQNzLc68BP-yMPJC00Cjsszgjjg6-XesWgZo6bUUj9opqwITVR-D01wp6BGemW2c76Vs0rtdT4RDiqBc_N8KCzkPaNzVq33ec1BG1by0bx9hmhSxd3QUIhBnfeDJpCDF3VKW_Ntwa8g1dEP3N9GjnzM6ULd9qJJLw8FeFfKB8KUSdWf-I1EzPEGKgDcgPbeuORdbHvoTYlqnLYG6Bw",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    "cast": [
-      {
-        "name": "C. Murphy",
-        "character": "Agent Red",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
-      }
-    ],
-    "type": "series",
-    "seasons": [
-      {
-        "seasonNumber": 1,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "Neon Visor",
-            "runtime": "42m",
-            "synopsis": "Agent Red activates his tactical helmet to track down a stolen corporate shipment on a rainy night.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuCK_k5QoDzQgVjwMjw9gl8I0XE1m8PFMNvRMBRDyqdf0RRWhNBBS6eEQAKipvFQNzLc68BP-yMPJC00Cjsszgjjg6-XesWgZo6bUUj9opqwITVR-D01wp6BGemW2c76Vs0rtdT4RDiqBc_N8KCzkPaNzVq33ec1BG1by0bx9hmhSxd3QUIhBnfeDJpCDF3VKW_Ntwa8g1dEP3N9GjnzM6ULd9qJJLw8FeFfKB8KUSdWf-I1EzPEGKgDcgPbeuORdbHvoTYlqnLYG6Bw",
-            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
-          },
-          {
-            "episodeNumber": 2,
-            "title": "Street Reflections",
-            "runtime": "45m",
-            "synopsis": "Red explores the underground synth-bars to find a lead on the elusive Puppet Master.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuCK_k5QoDzQgVjwMjw9gl8I0XE1m8PFMNvRMBRDyqdf0RRWhNBBS6eEQAKipvFQNzLc68BP-yMPJC00Cjsszgjjg6-XesWgZo6bUUj9opqwITVR-D01wp6BGemW2c76Vs0rtdT4RDiqBc_N8KCzkPaNzVq33ec1BG1by0bx9hmhSxd3QUIhBnfeDJpCDF3VKW_Ntwa8g1dEP3N9GjnzM6ULd9qJJLw8FeFfKB8KUSdWf-I1EzPEGKgDcgPbeuORdbHvoTYlqnLYG6Bw",
-            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
-          },
-          {
-            "episodeNumber": 3,
-            "title": "Redline District (Season Finale)",
-            "runtime": "48m",
-            "synopsis": "A dramatic confrontation on the rooftops of the megacity as neon reflections dance on wet streets.",
-            "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuCK_k5QoDzQgVjwMjw9gl8I0XE1m8PFMNvRMBRDyqdf0RRWhNBBS6eEQAKipvFQNzLc68BP-yMPJC00Cjsszgjjg6-XesWgZo6bUUj9opqwITVR-D01wp6BGemW2c76Vs0rtdT4RDiqBc_N8KCzkPaNzVq33ec1BG1by0bx9hmhSxd3QUIhBnfeDJpCDF3VKW_Ntwa8g1dEP3N9GjnzM6ULd9qJJLw8FeFfKB8KUSdWf-I1EzPEGKgDcgPbeuORdbHvoTYlqnLYG6Bw",
-            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "cosmic-echo",
-    "title": "Cosmic Echo",
-    "year": "2023",
-    "genre": [
-      "Sci-Fi",
-      "Documentary"
-    ],
-    "rating": "8.5",
-    "metascore": "79",
-    "duration": "1h 30m",
-    "director": "S. Hawking",
-    "writers": "S. Hawking",
-    "specs": [
-      "Sci-Fi",
-      "ULTRA HD",
-      "1h 30m"
-    ],
-    "synopsis": "An abstract, cinematic image of swirling cosmic dust and nebulae in shades of electric purple and deep indigo. The deep space journey is brought to life.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuAaSbArVVy210O8K2qxXhsoFhbNf3GbJhPiLhBqOh1fwiM-fgJ4h11QIjDAkS4wOKrDZWoFghmI-DCbKW-BL8ik8So_9VuC5j0BJ_gbFFerrTlLj55qpn4Q5sjzx8ln0BZFVcKiDjHjOGIUP659RDR1iLLUhDpysg09pkDm6ZfNupKTtvl2NRn_2EVSYDcmMbt8g4h5oXwLW-8JE6bJn_CaHECW4t3T37AcXm6awznb0mGZghFQKyyRCf6WkjTqSmxwHH14AQtKbEZ4",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuAaSbArVVy210O8K2qxXhsoFhbNf3GbJhPiLhBqOh1fwiM-fgJ4h11QIjDAkS4wOKrDZWoFghmI-DCbKW-BL8ik8So_9VuC5j0BJ_gbFFerrTlLj55qpn4Q5sjzx8ln0BZFVcKiDjHjOGIUP659RDR1iLLUhDpysg09pkDm6ZfNupKTtvl2NRn_2EVSYDcmMbt8g4h5oXwLW-8JE6bJn_CaHECW4t3T37AcXm6awznb0mGZghFQKyyRCf6WkjTqSmxwHH14AQtKbEZ4",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-    "cast": [
-      {
-        "name": "N. Tyson",
-        "character": "Presenter",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
-      }
-    ],
-    "type": "movie"
-  },
-  {
-    "id": "the-lost-city",
-    "title": "The Lost City",
-    "year": "2024",
-    "genre": [
-      "Adventure",
-      "Action"
-    ],
-    "rating": "8.1",
-    "metascore": "75",
-    "duration": "2h 02m",
-    "director": "Sandra Bullock",
-    "writers": "Seth Oren",
-    "specs": [
-      "Adventure",
-      "4K",
-      "2h 02m"
-    ],
-    "synopsis": "A lush, dense jungle scene where ancient stone temples are being reclaimed by nature. Bright sunlight filters through the thick canopy.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuADjc27ceA6dTCLLRAkm0SieLcLAKSaiqNVs4HIYI16AEz1wYJKitt0ejAcARTDW-Exb9eEhSXERNYIwiwh17am-hC7ZqriWtShpdewuC3IZqX86H4nZRORwA5YiTizG4woh8_RzZHeynMcEY7llBytrqksqIhY5gHLBTvppuIKLJHMGykIoDZje5Yfkb2dSC02rgV5uZEUY9HT1dFTUDTscQum4SKmVKDcw-tkGlwLG3SAcY_qOTdkaTdouLCxI6gr6iUR4QHXbd02",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuADjc27ceA6dTCLLRAkm0SieLcLAKSaiqNVs4HIYI16AEz1wYJKitt0ejAcARTDW-Exb9eEhSXERNYIwiwh17am-hC7ZqriWtShpdewuC3IZqX86H4nZRORwA5YiTizG4woh8_RzZHeynMcEY7llBytrqksqIhY5gHLBTvppuIKLJHMGykIoDZje5Yfkb2dSC02rgV5uZEUY9HT1dFTUDTscQum4SKmVKDcw-tkGlwLG3SAcY_qOTdkaTdouLCxI6gr6iUR4QHXbd02",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-    "cast": [
-      {
-        "name": "S. Bullock",
-        "character": "Loretta",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBQ1rGFDSHWxXWzZfPqnO_Ii1aHqA4Bp0aWpGCpw5DkAOyUQxsa1x2v-by335cqFItvewr9gm7rI7OXXxEri-KOPCd-zTGLwwdUelzY5KpUU_iFFpB5L5WOh49fnjWA4yOpd6WI3mrsRRBjsDl_MdpzFtotNl6HwGocJYNs25hRwacdnJhdxrMt_8u7ZEA2NCuhpYuoSuUjekvrJIxUBTwyg34_grAuaZ6ShFDPhVDf-il9Pqvs0MdAvr7kSQO3Eo4GI22NmqcV2p3W"
-      }
-    ],
-    "type": "movie"
-  },
-  {
-    "id": "stage-fright",
-    "title": "Stage Fright",
-    "year": "2024",
-    "genre": [
-      "Documentary",
-      "Music"
-    ],
-    "rating": "9.0",
-    "metascore": "84",
-    "duration": "1h 45m",
-    "director": "Damien Chazelle",
-    "writers": "Damien Chazelle",
-    "specs": [
-      "Documentary",
-      "PREMIUM",
-      "1h 45m"
-    ],
-    "synopsis": "A high-contrast cinematic shot of a professional dancer performing a leap on a dark stage. A single spotlight cuts through dust motes.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuD4vJoLoGGaZ-mmMaSXNhnwIIBaB43vRmbAhVSmnD5tABXB1VD7ObG0MVrpgWsl0B_ijDtMY9jsO5ta9M-iTzQ3M5IWglsZnc-1acF5mBoRLhfho3ps0hb8CurG1eq8Y6DfrYV16168yIMFA1NGjv6TrZW4jE3Sp8f0dduuCJndOIwcrz6llq9RWKrQLCne8Ola8L8-i9tKXuPdplpCfHQK_GUXn6pWIusHx-26lR2TtY-bF9XR0LXScqX24Gg5qwr-SPcgYw4KSqBh",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuD4vJoLoGGaZ-mmMaSXNhnwIIBaB43vRmbAhVSmnD5tABXB1VD7ObG0MVrpgWsl0B_ijDtMY9jsO5ta9M-iTzQ3M5IWglsZnc-1acF5mBoRLhfho3ps0hb8CurG1eq8Y6DfrYV16168yIMFA1NGjv6TrZW4jE3Sp8f0dduuCJndOIwcrz6llq9RWKrQLCne8Ola8L8-i9tKXuPdplpCfHQK_GUXn6pWIusHx-26lR2TtY-bF9XR0LXScqX24Gg5qwr-SPcgYw4KSqBh",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    "cast": [
-      {
-        "name": "M. Copeland",
-        "character": "Dancer",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBQ1rGFDSHWxXWzZfPqnO_Ii1aHqA4Bp0aWpGCpw5DkAOyUQxsa1x2v-by335cqFItvewr9gm7rI7OXXxEri-KOPCd-zTGLwwdUelzY5KpUU_iFFpB5L5WOh49fnjWA4yOpd6WI3mrsRRBjsDl_MdpzFtotNl6HwGocJYNs25hRwacdnJhdxrMt_8u7ZEA2NCuhpYuoSuUjekvrJIxUBTwyg34_grAuaZ6ShFDPhVDf-il9Pqvs0MdAvr7kSQO3Eo4GI22NmqcV2p3W"
-      }
-    ],
-    "type": "movie"
-  },
-  {
-    "id": "arrival-prime",
-    "title": "Arrival Prime",
+    "id": "cyberpunk-edgerunners",
+    "title": "Cyberpunk: Edgerunners",
     "year": "2022",
-    "genre": [
-      "Sci-Fi",
-      "Mystery"
-    ],
-    "rating": "8.3",
-    "metascore": "79",
-    "duration": "1h 56m",
-    "director": "Denis Villeneuve",
-    "writers": "Ted Chiang",
-    "specs": [
-      "Sci-Fi",
-      "4K",
-      "1h 56m"
-    ],
-    "synopsis": "A dark movie poster showing a futuristic neon city under heavy rain, reflected in street puddles under the light of mysterious alien monoliths.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuDEINbLl2cGeZZu8mTBtw-UBIkHBdYn9LEj658oybkKsHAt_x3ddc9JiRO1mE6iZBLmDYt6dWtjZQ6IFmsn_Qr9wnplExgNsyMv6a2p5gd8vSWtuabQrzIQd_-oXPIZrhRnDAhC9WDGLm1Fa4O-OBccsKJUoH_XQxf4oQlMbsapT4DxII24xnEIHmLIyigfk416hUgsS-KZyDLMbvUCRZQAC2AsFLBTdOgGAas2drOeXnakT9fOtGnp7oiSVldfUhm1nWtM_pZ1XxDp",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuDEINbLl2cGeZZu8mTBtw-UBIkHBdYn9LEj658oybkKsHAt_x3ddc9JiRO1mE6iZBLmDYt6dWtjZQ6IFmsn_Qr9wnplExgNsyMv6a2p5gd8vSWtuabQrzIQd_-oXPIZrhRnDAhC9WDGLm1Fa4O-OBccsKJUoH_XQxf4oQlMbsapT4DxII24xnEIHmLIyigfk416hUgsS-KZyDLMbvUCRZQAC2AsFLBTdOgGAas2drOeXnakT9fOtGnp7oiSVldfUhm1nWtM_pZ1XxDp",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-    "cast": [
-      {
-        "name": "A. Adams",
-        "character": "Dr. Louise Banks",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBQ1rGFDSHWxXWzZfPqnO_Ii1aHqA4Bp0aWpGCpw5DkAOyUQxsa1x2v-by335cqFItvewr9gm7rI7OXXxEri-KOPCd-zTGLwwdUelzY5KpUU_iFFpB5L5WOh49fnjWA4yOpd6WI3mrsRRBjsDl_MdpzFtotNl6HwGocJYNs25hRwacdnJhdxrMt_8u7ZEA2NCuhpYuoSuUjekvrJIxUBTwyg34_grAuaZ6ShFDPhVDf-il9Pqvs0MdAvr7kSQO3Eo4GI22NmqcV2p3W"
-      }
-    ],
-    "type": "movie"
-  },
-  {
-    "id": "last-horizon",
-    "title": "Last Horizon",
-    "year": "2021",
-    "genre": [
-      "Drama",
-      "Sci-Fi"
-    ],
-    "rating": "7.9",
-    "metascore": "68",
-    "duration": "2h 01m",
-    "director": "G. Lucas",
-    "writers": "G. Lucas",
-    "specs": [
-      "Drama",
-      "HD",
-      "2h 01m"
-    ],
-    "synopsis": "An astronaut gazing at a massive red nebula through a panoramic window, exploring the limits of solitude and isolation in deep space.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuBFUZylqNFIcvbT53hEOjJnR9taRwMuCvTowxNga9sSwHInrI_uxUhxh7JfnCnK5Wh5fEmPRieBYIevc49iypdnFG2SPAnsLy0Kv5kQ8yprUE1QctSJTn2nUYvy7UjSdykQ5PeMBISjaItAEw-E_fikLmHXqT1js_VcV0jhYgCm2vFGVfA7gnMRBWX7eszzIRZ08O0PHfhh8zIg7qzrp24EPl50uo74lSQuhJM02Z0IXlV9AhYHDtq25joWgxDCty7_jriZynDsKOCK",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuBFUZylqNFIcvbT53hEOjJnR9taRwMuCvTowxNga9sSwHInrI_uxUhxh7JfnCnK5Wh5fEmPRieBYIevc49iypdnFG2SPAnsLy0Kv5kQ8yprUE1QctSJTn2nUYvy7UjSdykQ5PeMBISjaItAEw-E_fikLmHXqT1js_VcV0jhYgCm2vFGVfA7gnMRBWX7eszzIRZ08O0PHfhh8zIg7qzrp24EPl50uo74lSQuhJM02Z0IXlV9AhYHDtq25joWgxDCty7_jriZynDsKOCK",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-    "cast": [
-      {
-        "name": "C. Farrell",
-        "character": "Astronaut",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
-      }
-    ],
-    "type": "movie"
-  },
-  {
-    "id": "digital-dawn",
-    "title": "Digital Dawn",
-    "year": "2023",
-    "genre": [
-      "Sci-Fi",
-      "Action"
-    ],
-    "rating": "8.2",
-    "metascore": "75",
-    "duration": "1h 50m",
-    "director": "Lana Wachowski",
-    "writers": "Lana Wachowski",
-    "specs": [
-      "Sci-Fi",
-      "4K",
-      "1h 50m"
-    ],
-    "synopsis": "A high-tech data visualization of a planet's atmosphere. Deep neon blues and electric indigo patterns on a pitch-black background.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuBwdLDwKDZ3xrubAxOQTS5p_cic7VgXlSWn6X7rG-HrvaOb6UJMiAXXPgcrKuLfWGzMB5kVAvu_tJXjwtLEKQo1DIAoF30JZZ43Gw-mkeJhwCewG9TCWXZWxyBsTYve7eNhmP9Ny7bQJQpUCStkNNBJ7BRaRoxLHy7upk-9Lt0T5s-QxGeS6FcPRLvaaTexIcLU4zJL5YuRAKuk-hdule2292usseCDaU2J7TUZ8jtIRsrQPH4V1t1c6VwIlM8rA3Cr2-_3q5wDQ73X",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuBwdLDwKDZ3xrubAxOQTS5p_cic7VgXlSWn6X7rG-HrvaOb6UJMiAXXPgcrKuLfWGzMB5kVAvu_tJXjwtLEKQo1DIAoF30JZZ43Gw-mkeJhwCewG9TCWXZWxyBsTYve7eNhmP9Ny7bQJQpUCStkNNBJ7BRaRoxLHy7upk-9Lt0T5s-QxGeS6FcPRLvaaTexIcLU4zJL5YuRAKuk-hdule2292usseCDaU2J7TUZ8jtIRsrQPH4V1t1c6VwIlM8rA3Cr2-_3q5wDQ73X",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    "cast": [
-      {
-        "name": "K. Reeves",
-        "character": "Neo Prime",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
-      }
-    ],
-    "type": "movie"
-  },
-  {
-    "id": "orbital-shift",
-    "title": "Orbital Shift",
-    "year": "2020",
-    "genre": [
-      "Action",
-      "Thriller"
-    ],
-    "rating": "8.0",
-    "metascore": "70",
-    "duration": "2h 00m",
-    "director": "J. J. Abrams",
-    "writers": "J. J. Abrams",
-    "specs": [
-      "Action",
-      "HD",
-      "2h 00m"
-    ],
-    "synopsis": "A majestic movie poster showing a rocket launch at dusk. The exhaust plume is a bright trail of orange and white against a darkening indigo sky.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuCJJCytvhebXnUdU8XJ-Tgib8kxBuK1sED2GcKH-_6HxdB7w4npnFgYPrs_yFo-ULf4GceV3ZuDces52-l1TX_xiVHrARQ1lLOyAszRP5Plzx3CEM1fhfkrjOuWJh8k0BMMtOEq_QguPZSpHQFdgTrEHMp5NAVlBoJUAiuuWl1vcmlx_CLFmZws31Gj6K4r9X54_r3I-RGHuDkTPFcHQGdtjvxb3qE1KlndMcssyPWtrvtW8bx-YebpHUWPxnig3i8W45VDFZiltbVc",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuCJJCytvhebXnUdU8XJ-Tgib8kxBuK1sED2GcKH-_6HxdB7w4npnFgYPrs_yFo-ULf4GceV3ZuDces52-l1TX_xiVHrARQ1lLOyAszRP5Plzx3CEM1fhfkrjOuWJh8k0BMMtOEq_QguPZSpHQFdgTrEHMp5NAVlBoJUAiuuWl1vcmlx_CLFmZws31Gj6K4r9X54_r3I-RGHuDkTPFcHQGdtjvxb3qE1KlndMcssyPWtrvtW8bx-YebpHUWPxnig3i8W45VDFZiltbVc",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-    "cast": [
-      {
-        "name": "J. Boyega",
-        "character": "Finn",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
-      }
-    ],
-    "type": "movie"
-  },
-  {
-    "id": "silent-echo",
-    "title": "Silent Echo",
-    "year": "2024",
-    "genre": [
-      "Thriller",
-      "Mystery"
-    ],
-    "rating": "7.8",
-    "metascore": "65",
-    "duration": "1h 45m",
-    "director": "M. Night Shyamalan",
-    "writers": "M. Night Shyamalan",
-    "specs": [
-      "Thriller",
-      "HD",
-      "1h 45m"
-    ],
-    "synopsis": "A solitary observer sitting on a moon-like surface looking at a distant spiral galaxy. The mystery of silence in deep space unravels.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuAtsReA_BLCzpW4BNdg7zS1LKON7hny8M2JyYh9wYgybODUDXFWa_N7onBgxt1R68c54o7y1Q89lgIOGAjgOjsfFIWvDAQSSvgrS2-zFOClZaOqK_NoRqUdHO9MDexGutOmfkbxg8IdtuO2G_6FNP6Mip9nHaM2NfwmVS9vL2Rka9R2qJqzbJS35R0V06fUTtN8etCsoQPx6uC_6EELLzcTZGdAoYOlgUquXEgTYS6NwR_X_SswhUDNObmbxf_YmLz74obafUCdD9rO",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuAtsReA_BLCzpW4BNdg7zS1LKON7hny8M2JyYh9wYgybODUDXFWa_N7onBgxt1R68c54o7y1Q89lgIOGAjgOjsfFIWvDAQSSvgrS2-zFOClZaOqK_NoRqUdHO9MDexGutOmfkbxg8IdtuO2G_6FNP6Mip9nHaM2NfwmVS9vL2Rka9R2qJqzbJS35R0V06fUTtN8etCsoQPx6uC_6EELLzcTZGdAoYOlgUquXEgTYS6NwR_X_SswhUDNObmbxf_YmLz74obafUCdD9rO",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-    "cast": [
-      {
-        "name": "J. McAvoy",
-        "character": "Observer",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
-      }
-    ],
-    "type": "movie"
-  },
-  {
-    "id": "void-systems",
-    "title": "Void Systems",
-    "year": "2022",
-    "genre": [
-      "Documentary",
-      "Sci-Fi"
-    ],
-    "rating": "8.1",
-    "metascore": "74",
-    "duration": "1h 20m",
-    "director": "Werner Herzog",
-    "writers": "Werner Herzog",
-    "specs": [
-      "Documentary",
-      "HD",
-      "1h 20m"
-    ],
-    "synopsis": "A high-tech control room with multiple holographic screens showing planetary trajectories, deep cosmic analysis, and robotic telemetry.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuD7YkCtG_DnXXEzHH_jh5-2CKFz0ubYuat7PjuESygapGI20leTdYe3cU3cWSsPIlZynubvQdrSmmMh3JbKDEAPau918PUug_SWnmrMYREQLj52aWYzZRlv_LBbAbikVWG2k_FRPyPxHoVK6VW4tS3speYdKviGLyTsUKDmwypIintDwxj8bnL_E_lg6ZgwXMeQhj65KZBbTuZk4-Ua6-yupXGHKQA2hyh3w_v-uLG2CNz6RMpNC46Oxstu53LqKv_F4R22YYQWcT_M",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuD7YkCtG_DnXXEzHH_jh5-2CKFz0ubYuat7PjuESygapGI20leTdYe3cU3cWSsPIlZynubvQdrSmmMh3JbKDEAPau918PUug_SWnmrMYREQLj52aWYzZRlv_LBbAbikVWG2k_FRPyPxHoVK6VW4tS3speYdKviGLyTsUKDmwypIintDwxj8bnL_E_lg6ZgwXMeQhj65KZBbTuZk4-Ua6-yupXGHKQA2hyh3w_v-uLG2CNz6RMpNC46Oxstu53LqKv_F4R22YYQWcT_M",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    "cast": [
-      {
-        "name": "W. Herzog",
-        "character": "Narrator",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
-      }
-    ],
-    "type": "movie"
-  },
-  {
-    "id": "tenet",
-    "title": "Tenet",
-    "year": "2020",
-    "genre": [
-      "Action",
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "rating": "7.3",
-    "metascore": "69",
-    "duration": "2h 30m",
-    "director": "Christopher Nolan",
-    "writers": "Christopher Nolan",
-    "specs": [
-      "Thriller",
-      "4K UHD",
-      "2h 30m"
-    ],
-    "synopsis": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuCdFbuiLUpNNbsCK07FwrDYF-QOsU2ZwRp4vB1PzrPZcJhDbrrRI1TgnMtVMR_Y0rX5lagrUVVdkWAkdaoClN3DzITFK-34nO46JDn8HxFQEY44Jwmz-siGDnZgjz-BmJh3oRSQ0oP03q_hsP-pumPgE26s8BhqJV5wNaIBBhg602oOGYig2hwt49ti-yuxxDVxxaYkhNhwwnEZowKH_kmHKfK-vtmPisR7Y21_ee35oAd0odWAWBVBPSKhtADxqm_4vlbbr5f9bhwJ",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuCdFbuiLUpNNbsCK07FwrDYF-QOsU2ZwRp4vB1PzrPZcJhDbrrRI1TgnMtVMR_Y0rX5lagrUVVdkWAkdaoClN3DzITFK-34nO46JDn8HxFQEY44Jwmz-siGDnZgjz-BmJh3oRSQ0oP03q_hsP-pumPgE26s8BhqJV5wNaIBBhg602oOGYig2hwt49ti-yuxxDVxxaYkhNhwwnEZowKH_kmHKfK-vtmPisR7Y21_ee35oAd0odWAWBVBPSKhtADxqm_4vlbbr5f9bhwJ",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-    "cast": [
-      {
-        "name": "J. D. Washington",
-        "character": "Protagonist",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
-      }
-    ],
-    "type": "movie"
-  },
-  {
-    "id": "ghost-in-the-shell",
-    "title": "Ghost in the Shell",
-    "year": "1995",
     "genre": [
       "Sci-Fi",
       "Action",
       "Anime"
     ],
-    "rating": "8.0",
-    "metascore": "76",
-    "duration": "1h 23m",
-    "director": "Mamoru Oshii",
-    "writers": "Masamune Shirow",
+    "rating": "8.4",
+    "metascore": "88",
+    "duration": "1 Season",
+    "director": "Hiroyuki Imaishi",
+    "writers": "Yoshiki Usa, Masahiko Otsuka",
     "specs": [
-      "Sci-Fi",
-      "HD",
-      "1h 23m"
+      "Action",
+      "SERIES",
+      "1 Season"
     ],
-    "synopsis": "A cyberpunk classic following a cyborg policewoman and her partner as they hunt a mysterious, all-powerful hacker called the Puppet Master.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuA9xQZHF-fLRa8renJ1fkcSY-aPfRt6lmqsTXWROmVOFsQZoN2B9GAk71TcOheLMvw9L6nr4xvgtA_XRSqfu1yz4-ZZRlyTVOJPvoOgTSHUjt5IaE882MKyP-A4woDor8IIeEb5uA7CbmMMbaJKsX2LTMK6nV1DsPYbd0BNoXZSYL5kZs7OIyC8bFVpaY9fkDqdahfW21WHJZM-ISzvCQCzGJSvG2pfUuqDSFwFuzPHcei2lKVRjFdF7WO6qg0l15PU5mBwdzFxE3mU",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuA9xQZHF-fLRa8renJ1fkcSY-aPfRt6lmqsTXWROmVOFsQZoN2B9GAk71TcOheLMvw9L6nr4xvgtA_XRSqfu1yz4-ZZRlyTVOJPvoOgTSHUjt5IaE882MKyP-A4woDor8IIeEb5uA7CbmMMbaJKsX2LTMK6nV1DsPYbd0BNoXZSYL5kZs7OIyC8bFVpaY9fkDqdahfW21WHJZM-ISzvCQCzGJSvG2pfUuqDSFwFuzPHcei2lKVRjFdF7WO6qg0l15PU5mBwdzFxE3mU",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-    "cast": [
-      {
-        "name": "A. Tanaka",
-        "character": "Motoko Kusanagi",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
-      }
-    ],
-    "type": "movie"
-  },
-  {
-    "id": "the-matrix",
-    "title": "The Matrix",
-    "year": "1999",
-    "genre": [
-      "Sci-Fi",
-      "Action"
-    ],
-    "rating": "8.7",
-    "metascore": "73",
-    "duration": "2h 16m",
-    "director": "Lana Wachowski, Lilly Wachowski",
-    "writers": "Lana Wachowski, Lilly Wachowski",
-    "specs": [
-      "Sci-Fi",
-      "4K UHD",
-      "2h 16m"
-    ],
-    "synopsis": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuC-2EcT8IjFFRexeMBpJPpoeXe0VXQBJpoBGMJyQv05OFTo6yoUvMKm3yw14YmVjrRT6AqRROp0HnVIp-PeyhSixNt0bBmlIGnzT-3rQGzkKMqeEp9Lvgp6VlOLgiayypC2ANkmU46TBCAWmX6BL3L0QlZgVkrjBY0uvkK08lJkiRq5x55iXPmL7FojHkkMN2cqQ__xFGW3X9yDBrsoDbd6pI3T7QuAnYzmVOPzlHENW5lhGj4wosu5lYqIHE4OjM8IC8LjH9ZbJ0u4",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuC-2EcT8IjFFRexeMBpJPpoeXe0VXQBJpoBGMJyQv05OFTo6yoUvMKm3yw14YmVjrRT6AqRROp0HnVIp-PeyhSixNt0bBmlIGnzT-3rQGzkKMqeEp9Lvgp6VlOLgiayypC2ANkmU46TBCAWmX6BL3L0QlZgVkrjBY0uvkK08lJkiRq5x55iXPmL7FojHkkMN2cqQ__xFGW3X9yDBrsoDbd6pI3T7QuAnYzmVOPzlHENW5lhGj4wosu5lYqIHE4OjM8IC8LjH9ZbJ0u4",
+    "synopsis": "A street kid trying to survive in Night City—a technology and body modification-obsessed city of the future. Having everything to lose, he chooses to stay alive by becoming an edgerunner—a mercenary outlaw.",
+    "poster": "https://image.tmdb.org/t/p/w500/lqcDVZ8pyk08AVftMBildDR3QUK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/lqcDVZ8pyk08AVftMBildDR3QUK.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "cast": [
       {
-        "name": "K. Reeves",
-        "character": "Neo",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "name": "KENN",
+        "character": "David Martinez",
+        "image": "https://image.tmdb.org/t/p/w185/77Q2Wf432w7hU7w328h4uugb.jpg"
+      },
+      {
+        "name": "Aoi Yuuki",
+        "character": "Lucy",
+        "image": "https://image.tmdb.org/t/p/w185/9fa6tG7UB7szpaU3968875u.jpg"
+      }
+    ],
+    "type": "series",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Let You Down",
+            "runtime": "24m",
+            "synopsis": "David's mother works hard to support him at the prestigious Arasaka Academy. A tragic accident disrupts their lives.",
+            "thumbnail": "https://image.tmdb.org/t/p/w300/lqcDVZ8pyk08AVftMBildDR3QUK.jpg",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Like a Boy",
+            "runtime": "25m",
+            "synopsis": "Equipped with a powerful military-grade cyberware implant, David decides to seek power and escapes Academy life.",
+            "thumbnail": "https://image.tmdb.org/t/p/w300/lqcDVZ8pyk08AVftMBildDR3QUK.jpg",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-lost-city",
+    "title": "The Lost City",
+    "year": "2022",
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Action"
+    ],
+    "rating": "6.1",
+    "metascore": "60",
+    "duration": "1h 52m",
+    "director": "Aaron Nee, Adam Nee",
+    "writers": "Oren Uziel, Dana Fox",
+    "specs": [
+      "Adventure",
+      "4K",
+      "1h 52m"
+    ],
+    "synopsis": "A reclusive romance novelist on a book tour with her cover model gets swept up in a kidnapping attempt that lands them both in a cutthroat jungle adventure.",
+    "poster": "https://image.tmdb.org/t/p/w500/rnheO8cFvCYcmZsDrBoabJbKLFE.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+    "cast": [
+      {
+        "name": "Sandra Bullock",
+        "character": "Loretta Sage",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
+      },
+      {
+        "name": "Channing Tatum",
+        "character": "Alan Caprison",
+        "image": "https://image.tmdb.org/t/p/w185/9fa6tG7UB7szpaU3968875u.jpg"
       }
     ],
     "type": "movie"
   },
   {
-    "id": "blade-runner-2049",
-    "title": "Blade Runner 2049",
-    "year": "2017",
+    "id": "whiplash",
+    "title": "Whiplash",
+    "year": "2014",
+    "genre": [
+      "Drama",
+      "Music"
+    ],
+    "rating": "8.5",
+    "metascore": "89",
+    "duration": "1h 46m",
+    "director": "Damien Chazelle",
+    "writers": "Damien Chazelle",
+    "specs": [
+      "Drama",
+      "PREMIUM",
+      "1h 46m"
+    ],
+    "synopsis": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+    "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "cast": [
+      {
+        "name": "Miles Teller",
+        "character": "Andrew Neiman",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
+      },
+      {
+        "name": "J.K. Simmons",
+        "character": "Terence Fletcher",
+        "image": "https://image.tmdb.org/t/p/w185/9fa6tG7UB7szpaU3968875u.jpg"
+      }
+    ],
+    "type": "movie"
+  },
+  {
+    "id": "arrival",
+    "title": "Arrival",
+    "year": "2016",
     "genre": [
       "Sci-Fi",
-      "Thriller",
-      "Action"
+      "Drama",
+      "Mystery"
     ],
-    "rating": "8.0",
+    "rating": "7.9",
     "metascore": "81",
-    "duration": "2h 44m",
+    "duration": "1h 56m",
     "director": "Denis Villeneuve",
-    "writers": "Hampton Fancher",
+    "writers": "Eric Heisserer, Ted Chiang",
     "specs": [
       "Sci-Fi",
-      "4K UHD",
-      "2h 44m"
+      "4K",
+      "1h 56m"
     ],
-    "synopsis": "A visually breathtaking exploration of identity and humanity in a decaying future. A new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuCydFeAm8Zf-OF4Z94kdgHE9BT8x4_0GO0sYquVvbTYBYsNGS2QJR4akCjCwbalMAo8rxufqpP_w6su9IyHG8GSYkDkHJcYcO9-kGBb3Q8RG2NOZWU8skFfOGmCuLwralfGn6qrAAmZs56yFiQMJW74g9bbCZ5M0ywhcEMHoqVIimB5qfrU5euTk1NNhRU4GrzqWlF_NHv4n_xNMo3GxLtd_1lOGcazuLdBGZXFYqKR6UfSRgI0ozvOBC9cCCYL0wQIlB4Wc1yaR487",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuCydFeAm8Zf-OF4Z94kdgHE9BT8x4_0GO0sYquVvbTYBYsNGS2QJR4akCjCwbalMAo8rxufqpP_w6su9IyHG8GSYkDkHJcYcO9-kGBb3Q8RG2NOZWU8skFfOGmCuLwralfGn6qrAAmZs56yFiQMJW74g9bbCZ5M0ywhcEMHoqVIimB5qfrU5euTk1NNhRU4GrzqWlF_NHv4n_xNMo3GxLtd_1lOGcazuLdBGZXFYqKR6UfSRgI0ozvOBC9cCCYL0wQIlB4Wc1yaR487",
+    "synopsis": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+    "poster": "https://image.tmdb.org/t/p/w500/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/e2hCUg2Z3sJ6yWF9NLU24SIKeWa.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
     "cast": [
       {
-        "name": "R. Gosling",
-        "character": "Officer K",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "name": "Amy Adams",
+        "character": "Dr. Louise Banks",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
+      },
+      {
+        "name": "Jeremy Renner",
+        "character": "Ian Donnelly",
+        "image": "https://image.tmdb.org/t/p/w185/9fa6tG7UB7szpaU3968875u.jpg"
+      }
+    ],
+    "type": "movie"
+  },
+  {
+    "id": "the-martian",
+    "title": "The Martian",
+    "year": "2015",
+    "genre": [
+      "Sci-Fi",
+      "Adventure",
+      "Drama"
+    ],
+    "rating": "8.0",
+    "metascore": "80",
+    "duration": "2h 21m",
+    "director": "Ridley Scott",
+    "writers": "Drew Goddard, Andy Weir",
+    "specs": [
+      "Sci-Fi",
+      "HD",
+      "2h 21m"
+    ],
+    "synopsis": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+    "poster": "https://image.tmdb.org/t/p/w500/3ndAx3weG6KDkJIRMCi5vXX6Dyb.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/kVqjgpcwvDJOhCupjcLzwwtOp52.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+    "cast": [
+      {
+        "name": "Matt Damon",
+        "character": "Mark Watney",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      },
+      {
+        "name": "Jessica Chastain",
+        "character": "Melissa Lewis",
+        "image": "https://image.tmdb.org/t/p/w185/9N22y0sF8p0q437j8Rj8l6gElLp.jpg"
+      }
+    ],
+    "type": "movie"
+  },
+  {
+    "id": "the-dark-knight",
+    "title": "The Dark Knight",
+    "year": "2008",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "rating": "9.0",
+    "metascore": "84",
+    "duration": "2h 32m",
+    "director": "Christopher Nolan",
+    "writers": "Jonathan Nolan, Christopher Nolan",
+    "specs": [
+      "Action",
+      "4K UHD",
+      "2h 32m"
+    ],
+    "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "cast": [
+      {
+        "name": "Christian Bale",
+        "character": "Bruce Wayne / Batman",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      },
+      {
+        "name": "Heath Ledger",
+        "character": "Joker",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
       }
     ],
     "type": "movie"
@@ -843,27 +606,33 @@ export const movies = [
     "year": "2006",
     "genre": [
       "Drama",
-      "Mystery"
+      "Mystery",
+      "Thriller"
     ],
     "rating": "8.5",
     "metascore": "66",
     "duration": "2h 10m",
     "director": "Christopher Nolan",
-    "writers": "Christopher Nolan",
+    "writers": "Jonathan Nolan, Christopher Nolan",
     "specs": [
       "Drama",
       "HD",
       "2h 10m"
     ],
     "synopsis": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuCYReq-NvNlWtgRJWE10L_ad_LENYVng9XB8YANOAj3KVrIka31ewp6YeL4PNopktOnkTiMaW1Ef7d_n1KtrSQHLUu_z1gOI9BEMS0C9LEdq8nVjsJ9YeGnxKxzJuuzgbhQwteIpLCa6g-Tq3vU0htoONsbwQAfaCCfUT7Fs6KGPUsOjIL4Qm5qo3QgGRi4UFkzOSUBeCZ_bsJTJe_5xkZB4iK3jPE3nDRr-alD6FKPtCCu-SonmQdBDY9419VFLSZ00YZLg3XOh-0D",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuCYReq-NvNlWtgRJWE10L_ad_LENYVng9XB8YANOAj3KVrIka31ewp6YeL4PNopktOnkTiMaW1Ef7d_n1KtrSQHLUu_z1gOI9BEMS0C9LEdq8nVjsJ9YeGnxKxzJuuzgbhQwteIpLCa6g-Tq3vU0htoONsbwQAfaCCfUT7Fs6KGPUsOjIL4Qm5qo3QgGRi4UFkzOSUBeCZ_bsJTJe_5xkZB4iK3jPE3nDRr-alD6FKPtCCu-SonmQdBDY9419VFLSZ00YZLg3XOh-0D",
+    "poster": "https://image.tmdb.org/t/p/w500/rOa94QOq3wbqKBHjSqL0WtPPJm1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
     "cast": [
       {
-        "name": "H. Jackman",
-        "character": "Angier",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "name": "Hugh Jackman",
+        "character": "Robert Angier",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      },
+      {
+        "name": "Christian Bale",
+        "character": "Alfred Borden",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
       }
     ],
     "type": "movie"
@@ -874,7 +643,8 @@ export const movies = [
     "year": "2011",
     "genre": [
       "Sci-Fi",
-      "Thriller"
+      "Thriller",
+      "Mystery"
     ],
     "rating": "7.5",
     "metascore": "74",
@@ -887,14 +657,14 @@ export const movies = [
       "1h 33m"
     ],
     "synopsis": "A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train in 8 minutes.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuDyDrUbwNE8T1x536M-jZ760Gn3-XnyXGTPartWtVVipCKjK3eQcR05VeiN7amcXrcl3VYV0UTQ9OlptxPhmHZtLc1ST6hIFd0hzFYVeYdmky7nndn4B8ezeK32UY8UGwqWJ0uOHURb0-hVyknkwrDkcgmOVChn1NycE_8teTr_ck_YQsDcGy9nziQXKjmVmZahsAlyjf-6E7JrZnMt77GXXwoywD5ZfrPkBBUFTUkgyMsm2-hVNnBtuV-_Mm2xz2iwvZmWGj4msMIU",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuDyDrUbwNE8T1x536M-jZ760Gn3-XnyXGTPartWtVVipCKjK3eQcR05VeiN7amcXrcl3VYV0UTQ9OlptxPhmHZtLc1ST6hIFd0hzFYVeYdmky7nndn4B8ezeK32UY8UGwqWJ0uOHURb0-hVyknkwrDkcgmOVChn1NycE_8teTr_ck_YQsDcGy9nziQXKjmVmZahsAlyjf-6E7JrZnMt77GXXwoywD5ZfrPkBBUFTUkgyMsm2-hVNnBtuV-_Mm2xz2iwvZmWGj4msMIU",
+    "poster": "https://image.tmdb.org/t/p/w500/yNUXcoopDqshs5xd2lOwUl1g4Df.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/5MsbQCp7FpYr3INLpeKDLJrlDh8.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "cast": [
       {
-        "name": "J. Gyllenhaal",
+        "name": "Jake Gyllenhaal",
         "character": "Colter Stevens",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
       }
     ],
     "type": "movie"
@@ -919,139 +689,338 @@ export const movies = [
       "1h 29m"
     ],
     "synopsis": "Strange things begin to happen when a group of friends gather for a dinner party on an evening when a comet is passing overhead.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuAM2IrMWn6Nr6HsBdoQrQE1Za593svGHd-DO4LWgf5CrfMiRiX_5i4RqiorawVJGxB5SGOIjn1DcCk6-qsHAv_onLbLKYBdjHTVX0b6c2dnOqBubYtuSbErdqd04d2xvK2n-y0ynCe6rPcxSDLkxewI0dy61ENnth1FNnt_bY9oTT29C7k-mKmek2Z99eCzKa9AxJOopDBioFFFOjhrQdclFtjmf-EqiwbzxxQ9plX60CC7Eye1l2nWBToZKSsLakymtIl6O3a-orwr",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuAM2IrMWn6Nr6HsBdoQrQE1Za593svGHd-DO4LWgf5CrfMiRiX_5i4RqiorawVJGxB5SGOIjn1DcCk6-qsHAv_onLbLKYBdjHTVX0b6c2dnOqBubYtuSbErdqd04d2xvK2n-y0ynCe6rPcxSDLkxewI0dy61ENnth1FNnt_bY9oTT29C7k-mKmek2Z99eCzKa9AxJOopDBioFFFOjhrQdclFtjmf-EqiwbzxxQ9plX60CC7Eye1l2nWBToZKSsLakymtIl6O3a-orwr",
+    "poster": "https://image.tmdb.org/t/p/w500/ezUtb9m5DeLwL2gxi4gktzNCvQv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/ezUtb9m5DeLwL2gxi4gktzNCvQv.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
     "cast": [
       {
-        "name": "E. Baldoni",
+        "name": "Emily Baldoni",
         "character": "Emily",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
       }
     ],
     "type": "movie"
   },
   {
-    "id": "arrival",
-    "title": "Arrival",
-    "year": "2016",
+    "id": "tenet",
+    "title": "Tenet",
+    "year": "2020",
+    "genre": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "rating": "7.3",
+    "metascore": "69",
+    "duration": "2h 30m",
+    "director": "Christopher Nolan",
+    "writers": "Christopher Nolan",
+    "specs": [
+      "Thriller",
+      "4K UHD",
+      "2h 30m"
+    ],
+    "synopsis": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+    "poster": "https://image.tmdb.org/t/p/w500/f9zhIg8M1X1tFpHFUEA3scA6OYb.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "cast": [
+      {
+        "name": "John David Washington",
+        "character": "Protagonist",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      },
+      {
+        "name": "Robert Pattinson",
+        "character": "Neil",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
+      }
+    ],
+    "type": "movie"
+  },
+  {
+    "id": "ghost-in-the-shell",
+    "title": "Ghost in the Shell",
+    "year": "1995",
     "genre": [
       "Sci-Fi",
-      "Drama",
-      "Mystery"
+      "Action",
+      "Anime"
     ],
-    "rating": "7.9",
-    "metascore": "81",
-    "duration": "1h 56m",
-    "director": "Denis Villeneuve",
-    "writers": "Eric Heisserer",
+    "rating": "8.0",
+    "metascore": "76",
+    "duration": "1h 23m",
+    "director": "Mamoru Oshii",
+    "writers": "Masamune Shirow, Kazunori Itou",
+    "specs": [
+      "Sci-Fi",
+      "HD",
+      "1h 23m"
+    ],
+    "synopsis": "A cyborg female cop and her partner hunt a mysterious and powerful hacker called the Puppet Master.",
+    "poster": "https://image.tmdb.org/t/p/w500/9gC88zYUBARRSThcG93MvW14sqx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/9gC88zYUBARRSThcG93MvW14sqx.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+    "cast": [
+      {
+        "name": "Atsuko Tanaka",
+        "character": "Major Motoko Kusanagi",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      }
+    ],
+    "type": "movie"
+  },
+  {
+    "id": "the-matrix",
+    "title": "The Matrix",
+    "year": "1999",
+    "genre": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "rating": "8.7",
+    "metascore": "73",
+    "duration": "2h 16m",
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "writers": "Lana Wachowski, Lilly Wachowski",
     "specs": [
       "Sci-Fi",
       "4K UHD",
-      "1h 56m"
+      "2h 16m"
     ],
-    "synopsis": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuDjpk1Jk0tFbIpHTQoKiaRf1T7Owswj05R53wpGzVzYlIoVlfQVQHCdVXnFlk38mRV5wQFjYf6xuDyJWN2Hho2TGZG2y3TX1TfQ9S1JJ4OqG3aAtqDELnq-qOVMlsAaXGRvLd4n--q2LRulLcDbZu6af49g29ihSroKOM7_tnNXbO5wnwHqF3a29iczJjpXztMECNpK3_PZZGKZIMlG2Am8W_4_2NLEqahcBBgAniuzxP57hniO61G87xAs9M8ve7butvPUoH9FyVuW",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuDjpk1Jk0tFbIpHTQoKiaRf1T7Owswj05R53wpGzVzYlIoVlfQVQHCdVXnFlk38mRV5wQFjYf6xuDyJWN2Hho2TGZG2y3TX1TfQ9S1JJ4OqG3aAtqDELnq-qOVMlsAaXGRvLd4n--q2LRulLcDbZu6af49g29ihSroKOM7_tnNXbO5wnwHqF3a29iczJjpXztMECNpK3_PZZGKZIMlG2Am8W_4_2NLEqahcBBgAniuzxP57hniO61G87xAs9M8ve7butvPUoH9FyVuW",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-    "cast": [
-      {
-        "name": "A. Adams",
-        "character": "Louise",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBQ1rGFDSHWxXWzZfPqnO_Ii1aHqA4Bp0aWpGCpw5DkAOyUQxsa1x2v-by335cqFItvewr9gm7rI7OXXxEri-KOPCd-zTGLwwdUelzY5KpUU_iFFpB5L5WOh49fnjWA4yOpd6WI3mrsRRBjsDl_MdpzFtotNl6HwGocJYNs25hRwacdnJhdxrMt_8u7ZEA2NCuhpYuoSuUjekvrJIxUBTwyg34_grAuaZ6ShFDPhVDf-il9Pqvs0MdAvr7kSQO3Eo4GI22NmqcV2p3W"
-      }
-    ],
-    "type": "movie"
-  },
-  {
-    "id": "kingdom-of-aether",
-    "title": "Kingdom of Aether",
-    "year": "2024",
-    "genre": [
-      "Fantasy",
-      "Action"
-    ],
-    "rating": "8.6",
-    "metascore": "79",
-    "duration": "2h 50m",
-    "director": "G. Del Toro",
-    "writers": "G. Del Toro",
-    "specs": [
-      "Fantasy",
-      "4K",
-      "2h 50m"
-    ],
-    "synopsis": "The battle for the floating islands begins. Gothic spires connect kingdoms above a sea of clouds as a magical clash reaches its epic finale.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuAkoMpJdfzhNqiek_wlyjO7MsvKmAG1taA9byW3WmQNvgXmn-Ff1nr8wCkRJYoCo3qi0_mLc0cqf_rN9WeIlbbRjQ33BQnrsid0B4N5ely7SBe57nNlT6Stt5PbPq_Yc1Y-6h2J00Gy4su9eyvHKL-SwWWMbKagZOGUV2Y6OBHImNfLEKVskYNxvhX6liiZPZnKUjF9dhOd9_R3edO-rlgAXiKM9IOntfawYnHWuzHQ32rCc3-1qnrZgS8IW1yT_brU0CxRFYvE83fo",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuAkoMpJdfzhNqiek_wlyjO7MsvKmAG1taA9byW3WmQNvgXmn-Ff1nr8wCkRJYoCo3qi0_mLc0cqf_rN9WeIlbbRjQ33BQnrsid0B4N5ely7SBe57nNlT6Stt5PbPq_Yc1Y-6h2J00Gy4su9eyvHKL-SwWWMbKagZOGUV2Y6OBHImNfLEKVskYNxvhX6liiZPZnKUjF9dhOd9_R3edO-rlgAXiKM9IOntfawYnHWuzHQ32rCc3-1qnrZgS8IW1yT_brU0CxRFYvE83fo",
+    "synopsis": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+    "poster": "https://image.tmdb.org/t/p/w500/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "cast": [
       {
-        "name": "R. Perlman",
-        "character": "Aether King",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "name": "Keanu Reeves",
+        "character": "Neo",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      },
+      {
+        "name": "Laurence Fishburne",
+        "character": "Morpheus",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
       }
     ],
     "type": "movie"
   },
   {
-    "id": "nitro-rush",
-    "title": "Nitro Rush",
-    "year": "2024",
+    "id": "blade-runner-2049",
+    "title": "Blade Runner 2049",
+    "year": "2017",
     "genre": [
-      "Action",
-      "Thriller"
+      "Sci-Fi",
+      "Thriller",
+      "Action"
     ],
-    "rating": "7.9",
-    "metascore": "67",
-    "duration": "1h 45m",
-    "director": "Justin Lin",
-    "writers": "Chris Morgan",
+    "rating": "8.0",
+    "metascore": "81",
+    "duration": "2h 44m",
+    "director": "Denis Villeneuve",
+    "writers": "Hampton Fancher, Michael Green",
     "specs": [
-      "Action",
-      "HD",
-      "1h 45m"
+      "Sci-Fi",
+      "4K UHD",
+      "2h 44m"
     ],
-    "synopsis": "A high-speed action thriller following a sports car racing through neon tunnels, hitting speeds that bend reality.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuCR_WL7Euwipq_HrDhF0uMLU3Wa_TlClLD0ICNAQmWpKz7yTaFxAiKQB-He78_HldzHK9p9e3NUsRP14NWlKK7ZWShvFHcsKj0YwBxSQrrra8rKiUPaYkDZOEwJdLgHtQjX1oG4zNO8cRzRTr-fsGbkEmEt79lwgEE8jnmSDBjBQdV4fB0Fpy4gG5rM-tr0z4b5c273ElXyTK67Rgc3OvHfYT6p-SP-BUCtPUd51nuDYWNH-vcfjG2S-iEseOabwEMongyUbBMlDlWY",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuCR_WL7Euwipq_HrDhF0uMLU3Wa_TlClLD0ICNAQmWpKz7yTaFxAiKQB-He78_HldzHK9p9e3NUsRP14NWlKK7ZWShvFHcsKj0YwBxSQrrra8rKiUPaYkDZOEwJdLgHtQjX1oG4zNO8cRzRTr-fsGbkEmEt79lwgEE8jnmSDBjBQdV4fB0Fpy4gG5rM-tr0z4b5c273ElXyTK67Rgc3OvHfYT6p-SP-BUCtPUd51nuDYWNH-vcfjG2S-iEseOabwEMongyUbBMlDlWY",
+    "synopsis": "A new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos.",
+    "poster": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
     "cast": [
       {
-        "name": "P. Walker",
-        "character": "Brian",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "name": "Ryan Gosling",
+        "character": "Officer K",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      },
+      {
+        "name": "Harrison Ford",
+        "character": "Rick Deckard",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
       }
     ],
     "type": "movie"
   },
   {
-    "id": "beyond-the-void",
-    "title": "Beyond the Void",
-    "year": "2024",
+    "id": "avatar",
+    "title": "Avatar",
+    "year": "2009",
     "genre": [
-      "Documentary",
+      "Action",
+      "Adventure",
       "Sci-Fi"
     ],
-    "rating": "8.3",
-    "metascore": "78",
-    "duration": "1h 52m",
-    "director": "Neil deGrasse Tyson",
-    "writers": "Neil deGrasse Tyson",
+    "rating": "7.9",
+    "metascore": "83",
+    "duration": "2h 42m",
+    "director": "James Cameron",
+    "writers": "James Cameron",
     "specs": [
-      "Documentary",
-      "4K",
-      "1h 52m"
+      "Sci-Fi",
+      "4K UHD",
+      "2h 42m"
     ],
-    "synopsis": "An astronaut's helmet reflects a colorful distant galaxy. Explore deep space and stellar physics in stunning clarity.",
-    "poster": "https://lh3.googleusercontent.com/aida-public/AB6AXuBMzkk8sJJlPL82IoK_VWrrxVEYuoIqLiT6x9Rg4smhuxXERHrNeR-ToCw3hOZ2TGNqOwIUdreeopZC03Pao0vg2wSH3H0hKNmUC6Zsynt62UpkZKnc2dS8-ljuif5xqCe7goRVBmFVKlukoFyQb8wbHfGvdpsi63fBbOtQ_LPF_3w-myfNga-18l0NBorXNnBxNlo_gUY1j6KJRrUb7WMQZCZdUJARQcHq5xq4LWMJGBLi8_yZw1In8v0sVF8ruzOkcWvDgRS7hoYW",
-    "backdrop": "https://lh3.googleusercontent.com/aida-public/AB6AXuBMzkk8sJJlPL82IoK_VWrrxVEYuoIqLiT6x9Rg4smhuxXERHrNeR-ToCw3hOZ2TGNqOwIUdreeopZC03Pao0vg2wSH3H0hKNmUC6Zsynt62UpkZKnc2dS8-ljuif5xqCe7goRVBmFVKlukoFyQb8wbHfGvdpsi63fBbOtQ_LPF_3w-myfNga-18l0NBorXNnBxNlo_gUY1j6KJRrUb7WMQZCZdUJARQcHq5xq4LWMJGBLi8_yZw1In8v0sVF8ruzOkcWvDgRS7hoYW",
+    "synopsis": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+    "poster": "https://image.tmdb.org/t/p/w500/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/kVqjgpcwvDJOhCupjcLzwwtOp52.jpg",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
     "cast": [
       {
-        "name": "N. Tyson",
-        "character": "Host",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLCqHdt297L1IpVjmL4VPdcQc8S8rtcuyfKPDfC4bsJJLU-mkIZCpWEdBwFpaLY7vE3RMK_Xy_oehds4CoEpCbeAFZmcqji7rLMBtoBolDV2TT2on-Wb3xPydEKx6LTOjypzbCFl9dh6flKFHH2iFT7YHybjC1zhqsQ8hikE5yMI9TPqb3rn2Dw0cJW0OkGkX0XijwdvKAhK9FNEO_VjrLz3A3nwdGgCdWT8EonpRIdXFC5pGEZ5Jevu6u6OFTZ_3T0QEGrtlDmQzJ"
+        "name": "Sam Worthington",
+        "character": "Jake Sully",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      },
+      {
+        "name": "Zoe Saldana",
+        "character": "Neytiri",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
+      }
+    ],
+    "type": "movie"
+  },
+  {
+    "id": "avengers-endgame",
+    "title": "Avengers: Endgame",
+    "year": "2019",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "rating": "8.4",
+    "metascore": "78",
+    "duration": "3h 01m",
+    "director": "Anthony Russo, Joe Russo",
+    "writers": "Christopher Markus, Stephen McFeely",
+    "specs": [
+      "Action",
+      "4K UHD",
+      "3h 01m"
+    ],
+    "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+    "poster": "https://image.tmdb.org/t/p/w500/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/kVqjgpcwvDJOhCupjcLzwwtOp52.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "cast": [
+      {
+        "name": "Robert Downey Jr.",
+        "character": "Tony Stark / Iron Man",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      },
+      {
+        "name": "Chris Evans",
+        "character": "Steve Rogers / Captain America",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
+      }
+    ],
+    "type": "movie"
+  },
+  {
+    "id": "fight-club",
+    "title": "Fight Club",
+    "year": "1999",
+    "genre": [
+      "Drama"
+    ],
+    "rating": "8.8",
+    "metascore": "66",
+    "duration": "2h 19m",
+    "director": "David Fincher",
+    "writers": "Chuck Palahniuk, Jim Uhls",
+    "specs": [
+      "Drama",
+      "HD",
+      "2h 19m"
+    ],
+    "synopsis": "An insomniac office worker and a devil-care soapmaker form an underground fight club that evolves into something much, much more.",
+    "poster": "https://image.tmdb.org/t/p/w500/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "cast": [
+      {
+        "name": "Brad Pitt",
+        "character": "Tyler Durden",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      },
+      {
+        "name": "Edward Norton",
+        "character": "The Narrator",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
+      }
+    ],
+    "type": "movie"
+  },
+  {
+    "id": "pulp-fiction",
+    "title": "Pulp Fiction",
+    "year": "1994",
+    "genre": [
+      "Thriller",
+      "Crime"
+    ],
+    "rating": "8.9",
+    "metascore": "94",
+    "duration": "2h 34m",
+    "director": "Quentin Tarantino",
+    "writers": "Quentin Tarantino, Roger Avary",
+    "specs": [
+      "Crime",
+      "HD",
+      "2h 34m"
+    ],
+    "synopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "poster": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+    "cast": [
+      {
+        "name": "John Travolta",
+        "character": "Vincent Vega",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      },
+      {
+        "name": "Samuel L. Jackson",
+        "character": "Jules Winnfield",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
+      }
+    ],
+    "type": "movie"
+  },
+  {
+    "id": "spiderman-into-the-spiderverse",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": "2018",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Animation"
+    ],
+    "rating": "8.4",
+    "metascore": "87",
+    "duration": "1h 57m",
+    "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+    "writers": "Phil Lord, Rodney Rothman",
+    "specs": [
+      "Action",
+      "4K UHD",
+      "1h 57m"
+    ],
+    "synopsis": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+    "poster": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "cast": [
+      {
+        "name": "Shameik Moore",
+        "character": "Miles Morales / Spider-Man",
+        "image": "https://image.tmdb.org/t/p/w185/w7iZ2e2STnQoc79wq4t4qPfv6u4.jpg"
+      },
+      {
+        "name": "Jake Johnson",
+        "character": "Peter B. Parker / Spider-Man",
+        "image": "https://image.tmdb.org/t/p/w185/8h4uugb77Q2Wf432w7hU7w32.jpg"
       }
     ],
     "type": "movie"
