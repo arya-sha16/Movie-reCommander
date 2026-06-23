@@ -1,4 +1,4 @@
-// Movie Database for Movies Commander - Enriched for Movifound
+// Movie Database for Movies Commander - Enriched for whereMoviFound
 export const movies = [
   {
     "id": "interstellar",
