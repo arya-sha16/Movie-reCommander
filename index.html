@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>whereMoviFound - Watch Movies & TV Shows Online</title>
+  <title>whereMoviFound - Discover Where to Watch Movies & Series</title>
+  <meta name="description" content="whereMoviFound helps you find which streaming platform has the movie or series you want to watch. Search Netflix, Prime Video, Max, Disney+, and more."/>
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -218,105 +219,7 @@
     </div>
   </div>
 
-  <!-- Fullscreen Video Player Container -->
-  <div id="fullscreen-player" class="fixed inset-0 bg-black z-[500] hidden flex-col">
-    <!-- Video Frame -->
-    <div id="player-video-frame" class="w-full h-full relative z-10 flex items-center justify-center">
-      <!-- HTML5 video element loaded dynamically -->
-    </div>
-
-    <!-- Buffering/Loading Screen -->
-    <div id="player-buffering" class="buffering-overlay active">
-      <div class="wheremovifound-spinner"></div>
-      <p id="player-buffering-text" class="text-white text-base font-semibold tracking-wide">Connecting to Server...</p>
-    </div>
-
-    <!-- Exit/Close Button (Top Left) -->
-    <button id="player-exit-btn" class="absolute top-6 left-6 z-40 bg-black/60 hover:bg-[#1f1f1f]/80 text-white p-3 rounded-full border border-neutral-800 flex items-center justify-center active:scale-95 duration-200 shadow-lg">
-      <span class="material-symbols-outlined text-xl">arrow_back</span>
-    </button>
-
-    <!-- Mirror Switcher Widget Sidebar (Top Right) -->
-    <div class="absolute top-6 right-6 z-40 flex items-center gap-3">
-      <button id="player-mirrors-toggle" class="bg-black/60 hover:bg-[#1f1f1f]/80 hover:text-primary text-white px-4 py-2.5 rounded border border-neutral-800 flex items-center gap-2 font-medium active:scale-95 transition-all shadow-lg text-sm">
-        <span class="material-symbols-outlined text-sm">dns</span>
-        Change Server (Mirror)
-      </button>
-    </div>
-
-    <!-- Mirror Selector Panel -->
-    <div id="player-mirrors-panel" class="mirror-sidebar">
-      <h3 class="text-white font-semibold mb-3 text-sm flex items-center gap-1.5 border-b border-neutral-800 pb-2">
-        <span class="material-symbols-outlined text-sm text-primary">lan</span>
-        Select Stream Source
-      </h3>
-      <div class="flex flex-col" id="mirrors-list">
-        <!-- Buttons loaded dynamically -->
-      </div>
-    </div>
-
-    <!-- Netflix-style Player Control Overlay (Bottom) -->
-    <div id="player-controls" class="absolute bottom-0 left-0 w-full p-4 md:p-6 player-controls-container z-30 pointer-events-auto flex flex-col gap-4 opacity-100 transition-opacity duration-300">
-      
-      <!-- Progress timeline bar -->
-      <div class="relative w-full h-1.5 bg-white/20 hover:h-2 transition-all cursor-pointer rounded-full group" id="player-progress-bar">
-        <div id="player-progress-fill" class="absolute top-0 left-0 h-full bg-primary w-0 shadow-[0_0_10px_rgba(229,9,20,0.8)] rounded-full"></div>
-        <div id="player-progress-handle" class="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" style="left: 0%"></div>
-      </div>
-      
-      <div class="flex items-center justify-between text-white">
-        <!-- Left controls -->
-        <div class="flex items-center gap-4 md:gap-6">
-          <button id="player-play-btn" class="control-icon-btn" title="Play/Pause">
-            <span class="material-symbols-outlined text-2xl fill-icon" id="player-play-icon">pause</span>
-          </button>
-          
-          <button id="player-skip-back" class="control-icon-btn" title="Back 10 Seconds">
-            <span class="material-symbols-outlined text-2xl">replay_10</span>
-          </button>
-          
-          <button id="player-skip-forward" class="control-icon-btn" title="Forward 10 Seconds">
-            <span class="material-symbols-outlined text-2xl">forward_10</span>
-          </button>
-          
-          <div class="flex items-center gap-2 group/volume">
-            <button id="player-mute-btn" class="control-icon-btn" title="Mute/Unmute">
-              <span class="material-symbols-outlined text-2xl" id="player-volume-icon">volume_up</span>
-            </button>
-            <input type="range" min="0" max="1" step="0.05" value="0.8" id="player-volume-slider" class="w-0 group-hover/volume:w-20 focus/volume:w-20 transition-all duration-300 h-1 bg-white/20 rounded-lg appearance-none cursor-pointer accent-primary"/>
-          </div>
-          
-          <span id="player-time-display" class="text-sm font-medium tracking-wide">0:00 / 0:00</span>
-        </div>
-        
-        <!-- Right controls -->
-        <div class="flex items-center gap-4 md:gap-5">
-          <!-- Playback Speed -->
-          <button id="player-speed-btn" class="text-xs font-semibold hover:text-primary border border-neutral-700 hover:border-primary px-2.5 py-1 rounded bg-black/40 transition-colors uppercase tracking-wider text-[11px]" title="Playback Speed">1.0x</button>
-          
-          <!-- Audio/Subtitle Menu -->
-          <div class="relative group/menu">
-            <button id="player-language-btn" class="control-icon-btn" title="Audio & Subtitles">
-              <span class="material-symbols-outlined text-2xl">chat_bubble</span>
-            </button>
-            <!-- Dropdown -->
-            <div class="absolute bottom-12 right-1/2 translate-x-1/2 w-48 bg-[#181818] border border-neutral-800 rounded shadow-2xl p-3 text-xs hidden group-hover/menu:block hover:block z-50">
-              <h4 class="font-bold border-b border-neutral-800 pb-1.5 mb-2 text-neutral-400">Audio/Subtitle</h4>
-              <div class="flex flex-col gap-2">
-                <label class="flex items-center gap-2 cursor-pointer hover:text-primary"><input type="radio" name="lang" value="en" checked class="text-primary focus:ring-0 rounded-full bg-neutral-900 border-neutral-700"/> English Stream</label>
-                <label class="flex items-center gap-2 cursor-pointer hover:text-primary"><input type="radio" name="lang" value="es" class="text-primary focus:ring-0 rounded-full bg-neutral-900 border-neutral-700"/> Spanish Dub</label>
-                <label class="flex items-center gap-2 cursor-pointer hover:text-primary"><input type="radio" name="lang" value="hi" class="text-primary focus:ring-0 rounded-full bg-neutral-900 border-neutral-700"/> Hindi Audio</label>
-              </div>
-            </div>
-          </div>
-          
-          <button id="player-fs-btn" class="control-icon-btn" title="Full Screen">
-            <span class="material-symbols-outlined text-2xl" id="player-fs-icon">fullscreen</span>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- No video player: whereMoviFound is a where-to-watch guide -->
 
   <!-- Watchlist Alert Toast -->
   <div id="toast-alert" class="toast-alert">
