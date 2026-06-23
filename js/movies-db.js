@@ -1,4 +1,4 @@
-// Movie Database for Movies Commander - Enriched for NetMirror
+// Movie Database for Movies Commander - Enriched for Movifound
 export const movies = [
   {
     "id": "interstellar",

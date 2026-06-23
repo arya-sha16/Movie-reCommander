@@ -909,7 +909,7 @@ function renderHome() {
       <!-- Popular on NetMirror -->
       <section>
         <div class="flex justify-between items-end mb-3">
-          <h2 class="text-lg md:text-xl font-bold font-title text-white tracking-wide">Popular on NetMirror</h2>
+          <h2 class="text-lg md:text-xl font-bold font-title text-white tracking-wide">Popular on Movifound</h2>
         </div>
         <div class="flex gap-4 overflow-x-auto hide-scrollbar pb-2">
           ${trendingCards}
